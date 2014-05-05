@@ -1,0 +1,68 @@
+<?php
+
+$_TABS = array();
+
+$_TABS['AdminDashboard'] = 'Inicio';
+$_TABS['AdminCatalog'] = 'Catálogo';
+$_TABS['AdminParentOrders'] = 'Pedidos';
+$_TABS['AdminParentCustomer'] = 'Clientes';
+$_TABS['AdminParentModules'] = 'Módulos';
+$_TABS['AdminParentShipping'] = 'transporte';
+$_TABS['AdminParentLocalization'] = 'Localización';
+$_TABS['AdminAdmin'] = 'Administración';
+$_TABS['AdminParentStats'] = 'Estadísticas';
+$_TABS['AdminStock'] = 'Existencias';
+$_TABS['AdminPerformance'] = 'Rendimiento';
+$_TABS['AdminEmails'] = 'Correo electrónico';
+$_TABS['AdminShopGroup'] = 'Multitienda';
+$_TABS['AdminRequestSql'] = 'Gestor SQL';
+$_TABS['AdminQuickAccesses'] = 'Acceso rápido';
+$_TABS['AdminEmployees'] = 'Empleados';
+$_TABS['AdminAccess'] = 'Permisos';
+$_TABS['AdminTabs'] = 'Menús';
+$_TABS['AdminGamification'] = 'Experiencia Comercial';
+$_TABS['AdminPreferences'] = 'Configuración';
+$_TABS['AdminOrderPreferences'] = 'Pedidos';
+$_TABS['AdminPPreferences'] = 'Productos';
+$_TABS['AdminCustomerPreferences'] = 'Clientes';
+$_TABS['AdminImages'] = 'Imágenes';
+$_TABS['AdminSearchConf'] = 'Buscar';
+$_TABS['AdminMaintenance'] = 'Mantenimiento';
+$_TABS['AdminOrders'] = 'Pedidos';
+$_TABS['AdminInvoices'] = 'Facturas';
+$_TABS['AdminStatuses'] = 'Estados de pedido';
+$_TABS['AdminModules'] = 'Módulos';
+$_TABS['AdminModulesPositions'] = 'Posiciones de los módulos';
+$_TABS['AdminPayment'] = 'Pago';
+$_TABS['AdminStats'] = 'Estadísticas';
+$_TABS['AdminReferrers'] = 'Afiliados';
+$_TABS['AdminCustomers'] = 'Clientes';
+$_TABS['AdminAddresses'] = 'Direcciones';
+$_TABS['AdminGroups'] = 'Grupos';
+$_TABS['AdminContacts'] = 'Contacto';
+$_TABS['AdminGenders'] = 'Sexo';
+$_TABS['AdminProducts'] = 'Productos';
+$_TABS['AdminCategories'] = 'Categorías';
+$_TABS['AdminManufacturers'] = 'Fabricantes';
+$_TABS['AdminSuppliers'] = 'Proveedores';
+$_TABS['AdminTags'] = 'Etiquetas';
+$_TABS['AdminAttachments'] = 'Adjuntos';
+$_TABS['AdminSearch'] = 'Buscar';
+$_TABS['AdminLogin'] = 'Identifíquese';
+$_TABS['AdminShop'] = 'Tiendas';
+$_TABS['AdminWarehouses'] = 'Almacenes';
+$_TABS['AdminStockConfiguration'] = 'Configuración';
+$_TABS['AdminLocalization'] = 'Localización';
+$_TABS['AdminLanguages'] = 'Idiomas';
+$_TABS['AdminZones'] = 'Zona';
+$_TABS['AdminCountries'] = 'Países';
+$_TABS['AdminStates'] = 'Estado';
+$_TABS['AdminCurrencies'] = 'Monedas';
+$_TABS['AdminTaxes'] = 'Impuestos';
+$_TABS['AdminTaxRulesGroup'] = 'Reglas de impuestos';
+$_TABS['AdminCartRules'] = 'Reglas de compra';
+$_TABS['AdminCarriers'] = 'Transportistas';
+$_TABS['AdminCarrierWizard'] = 'Transportista';
+
+
+return $_TABS;

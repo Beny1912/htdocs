@@ -1,0 +1,78 @@
+-- phpMyAdmin SQL Dump
+-- version 4.0.6
+-- http://www.phpmyadmin.net
+--
+-- Host: localhost
+-- Generation Time: Feb 27, 2014 at 07:30 PM
+-- Server version: 5.5.33
+-- PHP Version: 5.5.3
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+--
+-- Database: `parque`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `chicos`
+--
+
+CREATE TABLE `chicos` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `group_id` int(11) NOT NULL,
+  `nombre` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
+  `apellidos` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
+  `fecha` date DEFAULT NULL,
+  `padres` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
+  `telefono` int(9) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `fk1` (`group_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=10 ;
+
+--
+-- Dumping data for table `chicos`
+--
+
+INSERT INTO `chicos` (`id`, `group_id`, `nombre`, `apellidos`, `fecha`, `padres`, `telefono`) VALUES
+(1, 1, 'Prueba', 'Prueba', '0000-00-00', 'Prueba', 123456789),
+(2, 1, 'Prueba', 'Prueba', '0000-00-00', 'Prueba', 123456789),
+(3, 2, 'Luis', 'Jimenez', '0000-00-00', 'Juan', 123456789),
+(4, 2, 'Luis', 'Jimenez', '0000-00-00', 'Juan', 123456789),
+(5, 3, 'Alert', 'Alert', '0000-00-00', 'Alert', 123456789),
+(6, 3, 'Alert', 'Alert', '0000-00-00', 'Alert', 123456789),
+(7, 4, 'Juan', '', '0000-00-00', '', 0),
+(8, 4, 'Juan', '', '0000-00-00', '', 0),
+(9, 5, 'For', 'Reach', '0000-00-00', 'Luis', 123456789);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `grupos`
+--
+
+CREATE TABLE `grupos` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `alias` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
+  `entrada` datetime NOT NULL,
+  `tiempo` int(11) NOT NULL,
+  `salida` datetime NOT NULL,
+  `total` int(11) NOT NULL,
+  `color` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `hoy` date NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `unico` (`alias`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=6 ;
+
+--
+-- Dumping data for table `grupos`
+--
+
+INSERT INTO `grupos` (`id`, `alias`, `entrada`, `tiempo`, `salida`, `total`, `color`, `hoy`) VALUES
+(1, 'Prueba', '2014-02-27 03:56:47', 60, '2014-02-27 04:56:47', 16, 'Azul', '2014-02-27'),
+(2, 'Cumple Raul', '2014-02-27 04:56:10', 90, '2014-02-27 07:47:00', 18, 'Azul', '2014-02-27'),
+(3, 'Prueba Alert', '2014-02-27 06:46:53', 30, '2014-02-27 06:54:53', 0, 'Azul', '2014-02-27'),
+(4, 'Prueba for', '2014-02-27 18:36:09', 60, '2014-02-27 19:36:09', 0, 'Azul', '2014-02-27'),
+(5, 'PRueba 2', '2014-02-27 18:39:19', 60, '2014-02-27 19:39:19', 0, 'Azul', '2014-02-27');

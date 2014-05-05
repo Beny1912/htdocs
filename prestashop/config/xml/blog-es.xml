@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Blog ES</title>
+	<atom:link href="http://www.prestashop.com/blog/es/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.prestashop.com/blog/es</link>
+	<description>Un blog de Ecommerce sobre cómo gestionar una tienda online.</description>
+	<lastBuildDate>Thu, 06 Mar 2014 09:57:45 +0000</lastBuildDate>
+	<language>es-ES</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.4</generator>
+		<item>
+		<title>¿Qué es Bootstrap? – La Historia y el Bombo: Parte 1 de 2</title>
+		<link>http://www.prestashop.com/blog/es/que-es-bootstrap-la-historia-y-el-bombo-parte-1-de-2/</link>
+		<comments>http://www.prestashop.com/blog/es/que-es-bootstrap-la-historia-y-el-bombo-parte-1-de-2/#comments</comments>
+		<pubDate>Thu, 06 Mar 2014 09:57:45 +0000</pubDate>
+		<dc:creator>Xavier du Tertre</dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">http://www.prestashop.com/blog/es/?p=10942</guid>
+		<description><![CDATA[¿Qué es Bootstrap? Si tiene una web, lo más probable es que haya leído la palabra “Bootstrap” mientras ojeaba artículos sobre diseño y desarrollo. Quizás haya entreoído la palabra “Bootstrap” en medio de alguna conversación de diseñadores web en cualquier &#8230; <a href="http://www.prestashop.com/blog/es/que-es-bootstrap-la-historia-y-el-bombo-parte-1-de-2/" rel="nofollow" class="more-link">Lea más <span class="meta-nav">&#8594;</span></a>]]></description>
+			<content:encoded><![CDATA[<p>¿Qué es Bootstrap? Si tiene una web, lo más probable es que haya leído la palabra “Bootstrap” mientras ojeaba artículos sobre diseño y desarrollo. Quizás haya entreoído la palabra “Bootstrap” en medio de alguna conversación de diseñadores web en cualquier cafetería o bar del mundo. Ellos saben qué es Bootstrap y los enormes beneficios que aporta al mundo del desarrollo web. Pero, ¿sabe por qué insistir en utilizar Bootstrap en su web es una sabia decisión?</p>
+<p>En esta serie de dos artículos, repasaré la historia de Bootstrap, qué es Bootstrap exactamente, además de los múltiples motivos sobre por qué incorporar Bootstrap en su próxima web es un buen movimiento.</p>
+<p style="text-align: center;"><a href="http://www.prestashop.com/blog/en/files/2014/02/Bootstrap.png"><img class="aligncenter  wp-image-16071" title="Bootstrap" src="http://www.prestashop.com/blog/en/files/2014/02/Bootstrap.png" alt="" width="554" height="257" /></a></p>
+<h3><span id="more-10942"></span></h3>
+<h3><span style="color: #4a772b;">La Historia de Bootstrap</span></h3>
+<p>En 2011, Bootstrap se creó como solución interna para solucionar las inconsistencias en el desarrollo dentro del equipo de ingeniería de Twitter. Basicamente, no se había establecido ninguna convención sobre las formas en las que los ingenieros de Twitter elegían cómo desarrollar la plataforma.</p>
+<p>El desarrollo y la ingeniería web es un oficio, mucho incluso dicen que un arte, y cada ingeniero tiene su propio estilo de hacer las cosas. En algunos casos funciona, pero cuando hay multitud de ingenieros trabajando en el mismo proyecto con distintas formas de abordar los problemas, las inconsistencias son inevitables. Las inconsistencias en el desarrollo web pueden fermentar y evolucionar en problemas de codificación fuertemente enraizados que generan incertidumbre y aumentar los costes de mantenimiento. Bootstrap fue una herramienta originalmente desarrollada por (previamente) ingenieros en Twitter: Mark Otto y Jacob Thorton como un intento de fomentar la utilización del mismo framework para minimizar las inconsistencias en el equipo de ingeniería de Twitter. Ni que decir tiene, que la iniciativa de Bootstrap triunfó en Twitter puesto que el equipo completo comentó a trabajar más rápido, de forma más eficaz y con menos inconsistencias.</p>
+<p>Aunque comenzó como una solución interna en Twitter, Mark y Jacob, pronto se dieron cuenta de que aquello tendría un gran potencial. En Agosto de 2011, <a href="https://blog.twitter.com/2011/bootstrap-twitter">el framework Bootstrap fue lanzado al público</a> como proyecto Open Source en Github. En los siguientes meses, miles de desarrolladores de todo el mundo contribuyeron al proyecto y Bootstrap se convirtió en el proyecto Open Source más activo del mundo. Desde entonces, Bootstrap solo ha ganado más notoriedad y se ha convertido en “el framework de presentación más popular para desarrollar proyectos responsive y para móviles en Internet”.</p>
+<p style="text-align: center;"><a href="http://www.prestashop.com/blog/en/files/2014/02/Boot.png"><img class="aligncenter  wp-image-16072" title="Boot" src="http://www.prestashop.com/blog/en/files/2014/02/Boot.png" alt="" width="562" height="255" /></a></p>
+<h3></h3>
+<h3><span style="color: #4a772b;">Entonces… ¿Qué <em>es</em> exactamente Bootstrap?</span></h3>
+<p>Simplificando, Bootstrap es una colección de varios elementos web personalizables y funciones completamente empaquetado en una sola herramienta. Cuando se diseña una web con Bootstrap, los desarrolladores pueden elegir qué elementos utilizar. Aún más importante, tienen la certeza de saber que los elementos que elijan no generarán conflictos entre ellos. Como si se tratase de un puzle, exceptuando que cada pieza del puzle encaja perfectamente con las otras, sin importar la pieza que elija.</p>
+<p>Los elementos personalizabes de Bootstrap son una combinación de HTML, CSS y JavaScript. Gracias a las bondades del Open Source, Bootstrap vive en una mejora continua. Se le han añadido una variedad de funcionalidades tales como responsividad 100% a dispositivos móviles y una selección amplia de plugins jQuery.</p>
+<p>En agosto de 2013, tras dos años del lanzamiento original, salió Bootstrap 3. La última versión tiene un nuevo diseño, mejor gestión de errores, mejores opciones de personalización y otras tantas mejoras que facilitan la vida de los desarrolladores.<br />
+<a href="http://www.prestashop.com/blog/en/files/2014/02/prestashop_1-61.png"><img style="width: 275px; margin: auto; display: block; margin-left: 15px;" title="prestashop_1-6" src="http://www.prestashop.com/blog/en/files/2014/02/prestashop_1-61.png" alt="" align="right" /></a><br />
+Es cierto: a PrestaShop le encanta el framework Bootstrap. Hace unos meses, <a href="http://bit.ly/19WyODP">Mark Otto, compartió sus percepciones sobre PrestaShop, Bootstrap y la industria del E-commerce en este vídeo</a>.</p>
+<p>Todo esto se traduce en buenas noticias para los desarrolladores y propietarios de webs. Manténgase al corriente para la segunda parte en la que responderé a la gran cuestión: ¿por qué debería insistir en utilizar Bootstrap en su web? Gracias por su lectura. Anímese a compartir sus ideas sobre PrestaShop y Bootstrap en los comentarios.</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.prestashop.com/blog/es/que-es-bootstrap-la-historia-y-el-bombo-parte-1-de-2/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Gira Mundial PrestaShop: Pat Chun Vende Comida Tradicional China En Todo El Mundo</title>
+		<link>http://www.prestashop.com/blog/es/gira-mundial-prestashop-pat-chun-vende-comida-tradicional-china-en-todo-el-mundo/</link>
+		<comments>http://www.prestashop.com/blog/es/gira-mundial-prestashop-pat-chun-vende-comida-tradicional-china-en-todo-el-mundo/#comments</comments>
+		<pubDate>Wed, 05 Mar 2014 17:15:21 +0000</pubDate>
+		<dc:creator>Quentin Audrain</dc:creator>
+				<category><![CDATA[PrestaShop World Tour]]></category>
+
+		<guid isPermaLink="false">http://www.prestashop.com/blog/es/?p=10934</guid>
+		<description><![CDATA[El mercado del e-commerce en China está creciendo rápidamente. De hecho, China es el mercado en e-commerce que más rápido crece con un crecimiento anual del 70%. Cada vendedor online tiene su historia y la historia de Pat Chun comienza &#8230; <a href="http://www.prestashop.com/blog/es/gira-mundial-prestashop-pat-chun-vende-comida-tradicional-china-en-todo-el-mundo/" rel="nofollow" class="more-link">Lea más <span class="meta-nav">&#8594;</span></a>]]></description>
+			<content:encoded><![CDATA[<p><img style="border: 0pt none; float: left; padding-right: 10px; padding-bottom: 10px;" src="http://www.prestashop.com/blog/es/files/2014/03/badge-128x128.png" alt="" />El mercado del e-commerce en China está creciendo rápidamente. De hecho, China es el mercado en e-commerce que más rápido crece con un crecimiento anual del 70%.</p>
+<p>Cada vendedor online tiene su historia y la historia de Pat Chun comienza hace 80 años en Hong Kong. Dado el éxito de la empresa familiar de venta de productos alimenticios chinos tradicionales, Pat Chun decidió llevar su negocio a Internet hace 10 años. Hoy, continúan vendiendo sus deliciosos manjares en todo el mundo utilizando PrestaShop.</p>
+<p><img class="aligncenter size-full wp-image-10935" title="IMG_6057" src="http://www.prestashop.com/blog/es/files/2014/03/IMG_6057.jpg" alt="" width="595" height="410" /><br />
+<span id="more-10934"></span><br />
+Trevor Ng, Director Ejecutivo de Pat Chun, comparte su estrategia online y cómo gestionan la comunicación offline para atraer tráfico a su tienda online. Además nos expone el por qué una tienda online es la manera perfecta de hablar directamente con tus clientes.</p>
+<p>Trevor nos dio una vuelta por la fábrica de Pat Chun, ¡véalo en el vídeo!</p>
+<p><iframe src="//player.vimeo.com/video/88235318" frameborder="0" width="500" height="281"></iframe></p>
+<p><a href="http://vimeo.com/88235318">Ecommerce WorldTour &#8211; Pat Chun online store, Hong-Kong</a> from <a href="http://vimeo.com/prestashop">PrestaShop</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+<p>Siguiente Parada: ¡<span style="color: #333333;"><strong>Nueva Zelanda</strong></span>!</p>
+<p>Participe la Gira Mundial de PrestaShop con el hashtag #PSWorldTour y siga nuestro viaje en <a href="https://twitter.com/PrestaShop" target="_blank">Twitter</a>, <a href="http://instagram.com/prestashop#" target="_blank">Instagram</a> y <a href="https://www.facebook.com/prestashop" target="_blank">Facebook</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.prestashop.com/blog/es/gira-mundial-prestashop-pat-chun-vende-comida-tradicional-china-en-todo-el-mundo/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Fecha de Lanzamiento de la Versión 1.6: Envíe sus Preguntas a nuestro Equipo de Desarrollo</title>
+		<link>http://www.prestashop.com/blog/es/fecha-de-lanzamiento-de-la-version-1-6-envie-sus-preguntas-a-nuestro-equipo-de-desarrollo/</link>
+		<comments>http://www.prestashop.com/blog/es/fecha-de-lanzamiento-de-la-version-1-6-envie-sus-preguntas-a-nuestro-equipo-de-desarrollo/#comments</comments>
+		<pubDate>Tue, 04 Mar 2014 13:29:17 +0000</pubDate>
+		<dc:creator>Natalie Beigel</dc:creator>
+				<category><![CDATA[Actualidad PrestaShop]]></category>
+
+		<guid isPermaLink="false">http://www.prestashop.com/blog/es/?p=10927</guid>
+		<description><![CDATA[¡Ya es oficial! Tras la espera nos complace anunciarle que la versión 1.6 de PrestaShop será lanzada el próximo día 17 de marzo a las 12:00PM (hora del Este; New York; UTC-5) ¿Tiene alguna pregunta sobre esta nueva y revolucionaria &#8230; <a href="http://www.prestashop.com/blog/es/fecha-de-lanzamiento-de-la-version-1-6-envie-sus-preguntas-a-nuestro-equipo-de-desarrollo/" rel="nofollow" class="more-link">Lea más <span class="meta-nav">&#8594;</span></a>]]></description>
+			<content:encoded><![CDATA[<p><img style="border: 0pt none; float: left; padding-right: 10px; padding-bottom: 10px;" src="http://www.prestashop.com/blog/es/files/2014/03/prestashop_1-6.png" alt="" /><br />
+¡Ya es oficial! Tras la espera nos complace anunciarle que la versión 1.6 de PrestaShop será lanzada el próximo día <strong>17 de marzo a las 12:00PM</strong> (hora del Este; New York; UTC-5)</p>
+<p>¿Tiene alguna pregunta sobre esta nueva y revolucionaria versión de PrestaShop? ¡Estaremos encantados de contestársela! Envíe sus preguntas sobre la versión 1.6 a nuestro equipo de desarrollo desde hoy hasta el jueves de esta semana.<br />
+<span id="more-10927"></span></p>
+<p><strong><span style="color: #333333;">Puede escribirnos a la siguiente dirección</span> <a href="mailto:Ask@PrestaShop.com">Ask@PrestaShop.com</a><span style="color: #333333;">.</span></strong></p>
+<p>¡Preste atención al blog de PrestaShop para conocer las respuestas!</p>
+<p><strong>¿Quiere conocer más sobre PrestaShop 1.6? Vea el <a href="http://vimeo.com/75405291" target="_blank">vídeo</a> y lea estas entradas en el blog.</strong></p>
+<p style="padding-left: 60px;"><a href="http://www.prestashop.com/blog/en/prestashop-v-1-6-back-office-whats-new-and-improved/ " target="_blank">Back Office de PrestaShop 1.6: Novedades y mejoras</a></p>
+<p style="padding-left: 60px;"><a href="http://www.prestashop.com/blog/es/prestashop-version-1-6-un-vistazo-al-rediseno-del-front-office/">PrestaShop 1.6: Un vistazo al rediseño del Front Office</a></p>
+<p style="padding-left: 60px;"><a href="http://www.prestashop.com/blog/es/presentacion-del-nuevo-cuadro-de-mandos-de-prestashop-1-6/" target="_blank">Presentación del Nuevo Cuadro de Mandos de PrestaShop 1.6</a></p>
+<p>¡La cuenta atrás para el lanzamiento de la versión 1.6 de PrestaShop comienza ahora!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.prestashop.com/blog/es/fecha-de-lanzamiento-de-la-version-1-6-envie-sus-preguntas-a-nuestro-equipo-de-desarrollo/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>Omnicanalidad: El futuro del comercio</title>
+		<link>http://www.prestashop.com/blog/es/omnicanalidad-el-futuro-del-comercio/</link>
+		<comments>http://www.prestashop.com/blog/es/omnicanalidad-el-futuro-del-comercio/#comments</comments>
+		<pubDate>Thu, 27 Feb 2014 16:00:01 +0000</pubDate>
+		<dc:creator>Natalie Beigel</dc:creator>
+				<category><![CDATA[Asociados PrestaShop]]></category>
+
+		<guid isPermaLink="false">http://www.prestashop.com/blog/es/?p=10921</guid>
+		<description><![CDATA[En los últimos años, el desarrollo tecnológico ha propiciado importantes cambios en el comportamiento de los consumidores. Actualmente estamos ante un consumidor mucho más formado, que busca información sobre los productos que consume a través de Internet, compara precios, genera &#8230; <a href="http://www.prestashop.com/blog/es/omnicanalidad-el-futuro-del-comercio/" rel="nofollow" class="more-link">Lea más <span class="meta-nav">&#8594;</span></a>]]></description>
+			<content:encoded><![CDATA[<p>En los últimos años, el desarrollo tecnológico ha propiciado importantes cambios en el comportamiento de los consumidores. Actualmente estamos ante un consumidor mucho más formado, que busca información sobre los productos que consume a través de Internet, compara precios, genera opiniones sobre dichos productos y elige en cada momento cómo, cuándo y dónde completar su compra.</p>
+<p>La tecnología ha favorecido y facilitado que el consumidor incorpore a su proceso de compra múltiples dispositivos: el teléfono móvil, la tableta, el ordenador o incluso la televisión y la tienda física intervienen habitualmente en el proceso de compra.</p>
+<p><img class="aligncenter size-medium wp-image-10922" title="ebay-logo" src="http://www.prestashop.com/blog/es/files/2014/02/ebay-logo-300x123.jpg" alt="" width="300" height="123" /><br />
+<span id="more-10921"></span></p>
+<p>La omnicanalidad, o “comercio conectado”, es la verdadera revolución que se está produciendo actualmente y en la que la frontera entre el comercio offline y online va desapareciendo a medida que avanza la multicanalidad del consumidor. Ahora todo es comercio sin más.</p>
+<p>En este nuevo mundo, el comercio se expande más allá de los muros de la tienda física y online y genera nuevas oportunidades. Las expectativas de los consumidores crecen, exigen más control sobre la experiencia de compra y se hace cada vez más necesario crear una experiencia exclusiva para el consumidor en todos los canales que intervienen en su proceso de compra.</p>
+<h2><span style="color: #15a223;">El partner adecuado</span></h2>
+<p>Algunas tiendas tanto online como físicas están teniendo dificultades para adaptarse a este nuevo entorno digital y necesitan un partner adecuado que les ayude aprovechar las nuevas oportunidades generadas por el entorno omnicanal.</p>
+<p>Por varias razones, eBay se posiciona como una de las alternativas más interesantes para impulsar la estrategia multicanal de cualquier pequeña y mediana empresa. Por un lado, cuenta con más de 128 millones de usuarios activos en el mundo, lo que supone un canal de venta alternativo muy importante a tener en cuenta. Esta plataforma de comercio electrónico ayudará a que tus productos lleguen a nuevos compradores tanto locales como en cualquier parte del mundo. ¿Por qué conformarnos con vender a consumidores locales cuando nuestro producto puede interesar a muchas personas en otros países?</p>
+<p>Por otra parte, quien piense que eBay consiste solo en subastas y productos de segunda mano, se equivoca. eBay ha cambiado, y mucho. Actualmente, el 75% de los productos que se venden en la plataforma son artículos completamente nuevos y en formato precio fijo. Además, hace tiempo que eBay entendió que el comercio a través de dispositivos móviles es el catalizador que impulsará el comercio del futuro, por ello están plenamente centrados en el desarrollo y uso de la tecnología móvil para impulsar y asegurar una experiencia de comercio multicanal innovadora para minoristas locales, nacionales y globales.</p>
+<h2><span style="color: #15a223;">eBay y PrestaShop</span></h2>
+<p>PrestaShop, consciente de las nuevas tendencias en el ámbito del comercio, se asocia en 2012 con eBay. Desde entonces, trabajan juntos para desarrollar un módulo que te permite duplicar tu inventario y vender de forma fácil y cómoda en eBay. El módulo está pensado para que desde el backoffice de PrestaShop puedas controlar tanto el inventario y los pedidos de tu tienda PrestaShop como los de eBay. <a href="http://addons.prestashop.com/es/afiliacion-prestashop-modulos/2742-ebay.html" target="_blank">Puedes descargar el módulo de forma gratuita</a>. Aprovecha todas las ventajas del nuevo entorno omnicanal de la mano del líder del comercio electrónico a nivel mundial.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.prestashop.com/blog/es/omnicanalidad-el-futuro-del-comercio/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Gira Mundial PrestaShop: Stepworks Comparte Las Tendencias en E-commerce de Hong Kong</title>
+		<link>http://www.prestashop.com/blog/es/gira-mundial-prestashop-stepworks-comparte-las-tendencias-en-e-commerce-de-hong-kong/</link>
+		<comments>http://www.prestashop.com/blog/es/gira-mundial-prestashop-stepworks-comparte-las-tendencias-en-e-commerce-de-hong-kong/#comments</comments>
+		<pubDate>Wed, 26 Feb 2014 14:59:46 +0000</pubDate>
+		<dc:creator>Quentin Audrain</dc:creator>
+				<category><![CDATA[PrestaShop World Tour]]></category>
+
+		<guid isPermaLink="false">http://www.prestashop.com/blog/es/?p=10914</guid>
+		<description><![CDATA[Nuestro viaje por Asia continúa y decidimos hacer una parada en Hong Kong para conocer nuestra Comunidad allí y entender cómo funciona el mercado del e-commerce en China. Tuvimos el placer de conocer a Shadow y Chien, ambos Directores de &#8230; <a href="http://www.prestashop.com/blog/es/gira-mundial-prestashop-stepworks-comparte-las-tendencias-en-e-commerce-de-hong-kong/" rel="nofollow" class="more-link">Lea más <span class="meta-nav">&#8594;</span></a>]]></description>
+			<content:encoded><![CDATA[<p><img style="border: 0pt none; float: left; padding-right: 10px; padding-bottom: 10px;" src="http://www.prestashop.com/blog/es/files/2014/02/badge-128x1282.png" alt="" />Nuestro viaje por Asia continúa y decidimos hacer una parada en Hong Kong para conocer nuestra Comunidad allí y entender cómo funciona el mercado del e-commerce en China.</p>
+<p>Tuvimos el placer de conocer a Shadow y Chien, ambos Directores de Cuentas en Stepworks, una agencia web que utiliza PrestaShop para desarrollar tiendas online de buen gusto a sus clientes.</p>
+<p style="text-align: left;"><img class="aligncenter  wp-image-10915" title="Hong kong" src="http://www.prestashop.com/blog/es/files/2014/02/Hong-kong.jpeg" alt="" width="540" height="360" /><br />
+<span id="more-10914"></span><br />
+Hoy, compartirán con nosotros sus consejos sobre e-commerce y cómo utilizan las redes sociales para mejorar la visibilidad de su marca. Así mismo, también nos cuentan por qué Hong Kong es un mercado muy particular en el e-commerce para los negocios online y qué importancia tiene disponer de una versión web adaptada a móviles en 2014.</p>
+<p><strong><span style="color: #333333;">¡Vea el vídeo para conocer a Shadow y Chien!</span></strong></p>
+<p><iframe src="//player.vimeo.com/video/87668922" frameborder="0" width="500" height="281"></iframe></p>
+<p><a href="http://vimeo.com/87668922">Ecommerce WorldTour &#8211; Stepworks Agency, Hong-Kong</a> from <a href="http://vimeo.com/prestashop">PrestaShop</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+<p>¡Continúe para seguir nuestro viaje a través de <span style="color: #333333;"><strong>Hong Kong</strong></span>!</p>
+<p style="text-align: center;"><img class="aligncenter  wp-image-10916" title="Q in HK" src="http://www.prestashop.com/blog/es/files/2014/02/Q-in-HK.jpeg" alt="" width="257" height="385" /></p>
+<p>Participe la Gira Mundial de PrestaShop con el hashtag <span style="color: #333333;"><strong>#PSWorldTour</strong></span> y siga nuestro viaje en <a href="https://twitter.com/PrestaShop" target="_blank">Twitter</a>, <a href="http://instagram.com/prestashop#" target="_blank">Instagram</a> y <a href="https://www.facebook.com/prestashop" target="_blank">Facebook</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.prestashop.com/blog/es/gira-mundial-prestashop-stepworks-comparte-las-tendencias-en-e-commerce-de-hong-kong/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Montar una Tienda Online: 10 Preguntas Antes de Contratar a Un Desarrollador E-commerce</title>
+		<link>http://www.prestashop.com/blog/es/montar-una-tienda-online-10-preguntas-antes-de-contratar-a-un-desarrollador-e-commerce/</link>
+		<comments>http://www.prestashop.com/blog/es/montar-una-tienda-online-10-preguntas-antes-de-contratar-a-un-desarrollador-e-commerce/#comments</comments>
+		<pubDate>Thu, 20 Feb 2014 14:19:52 +0000</pubDate>
+		<dc:creator>Natalie Beigel</dc:creator>
+				<category><![CDATA[Consejos E-commerce]]></category>
+
+		<guid isPermaLink="false">http://www.prestashop.com/blog/es/?p=10903</guid>
+		<description><![CDATA[¿Tiene planeado utilizar los servicios de un profesional para montar su tienda online? Si no es desarrollador y dispone de pocos conocimientos técnicos, puede ser difícil encontrar al profesional adecuado para su proyecto. No se preocupe, no es el único &#8230; <a href="http://www.prestashop.com/blog/es/montar-una-tienda-online-10-preguntas-antes-de-contratar-a-un-desarrollador-e-commerce/" rel="nofollow" class="more-link">Lea más <span class="meta-nav">&#8594;</span></a>]]></description>
+			<content:encoded><![CDATA[<p>¿Tiene planeado utilizar los servicios de un profesional para montar su tienda online? Si no es desarrollador y dispone de pocos conocimientos técnicos, puede ser difícil encontrar al profesional adecuado para su proyecto. No se preocupe, no es el único con este problema. ¡Estamos aquí para ayudarle!</p>
+<p>Para facilitarle tomar la mejor decisión, hemos recopilado 10 preguntas que debe hacer antes de contratar a un desarrollador e-commerce para montar su tienda. Antes de emplear su tiempo y su dinero, reflexione sobre estas cuestiones y piense que respuestas debe esperar.</p>
+<p style="text-align: center;"><img class="aligncenter  wp-image-10906" title="ES_10 questions to ask before hiring an ecommerce developer" src="http://www.prestashop.com/blog/es/files/2014/02/ES_10-questions-to-ask-before-hiring-an-ecommerce-developer.jpg" alt="" width="540" height="312" /><br />
+<span id="more-10903"></span></p>
+<h4><span style="color: #04948b;">1. ¿Con qué plataformas e-commerce has montado tiendas online?</span></h4>
+<p>Esto es algo que debería investigar en profundidad previa entrevista a los candidatos. Necesita encontrar una plataforma e-commerce que sea potente, intuitiva y le resulte fácil de gestionar. Por que, al fin y al cabo, una vez que el desarrollador termine de montar su tienda online, usted será el encargado de trabajar con ella a diario.</p>
+<p>Durante su búsqueda de información, preste atención a las numerosas (y caras) soluciones de e-commerce disponibles en el mercado. Lo más probable es que no quiera quedar atrapado en una en la que deba pagar cuantiosas cuotas mensuales o una gran comisión por todas sus ventas. <a href="http://www.prestashop.com/es/descarga" target="_blank">PrestaShop</a> es una solución totalmente gratuita y contiene todas las herramientas que necesita paga gestionar su tienda online eficazmente. Y lo más importante: posee una gran flexibilidad, por lo que su desarrollador podrá personalizar completamente la tienda a su gusto.</p>
+<h4><span style="color: #04948b;">2. ¿Qué experiencia tiene creando tiendas online?</span></h4>
+<p>No se deje impresionar por el montón de tecnicismos que utilice el desarrollador. Pídale ver varios ejemplos en funcionamiento de tiendas online que haya construido. Preste mucha atención a la experiencia de usuario, a las características y al diseño de cada página que le muestre. Así mismo, también usted debería mostrar una idea básica de los que está buscando y pedirle al desarrollador que le muestre diversas tiendas online que el crea capacitado de replicar.</p>
+<p>Asumo que no quiere que su tienda online pase de moda rápidamente, para ello eche un vistazo a <a href="http://econsultancy.com/blog/64096-18-pivotal-web-design-trends-for-2014" target="_blank">las tendencias de diseño en 2014 de Econsultancy</a>.</p>
+<h4><span style="color: #04948b;">3. ¿Cuáles serán las condiciones de nuestro contrato?</span></h4>
+<p>En cualquier caso, siempre deberá tener un acuerdo por escrito que remarque lo siguiente:</p>
+<p style="padding-left: 30px;"><strong><span style="color: #333333;">Tarifas y condiciones de pago</span></strong> – Algunos desarrolladores prefieren especificar una tarifa por horas de trabajo y otros prefieren presupuestar proyecto al completo.<br />
+<span style="color: #333333;"><strong>Tarifas extraordinarias</strong></span> – Debe comprender exactamente qué se incluye en las tarifas. Un error muy frecuente es encontrarse gastos extra que debería haber negociado previamente: alojamiento web, certificados SSL, funcionalidad adicional, diseño o copias de seguridad.<br />
+<span style="color: #333333;"><strong>Fechas de entrega</strong></span> – Indique una fecha o varios hitos en los que el proyecto o diferentes entregables del proyecto deberían estar listos. Incluya una cláusula en su acuerdo que indique qué hacer en caso de retraso.<br />
+<span style="color: #333333;"><strong>Lista de control</strong></span> – Anote todo lo que espera que sea entregado al final del desarrollo.<br />
+<strong><span style="color: #333333;">Garantías y Soporte</span></strong> – ¿Qué tarifas de mantenimiento se aplicará tras el fin del proyecto? ¿Cuál es el tiempo de respuesta que puede esperar tras realizar una petición de soporte?</p>
+<p>Eche un vistazo a este <a href="http://www.rainbow-studios.co.uk/sample-contract/ " target="_blank">contrato de ejemplo</a> para facilitarle el trabajo.</p>
+<h4><span style="color: #04948b;">4. ¿Cómo nos pondremos en contacto?</span></h4>
+<p>Esta es una de esas cuestiones que a menudo quedan en el olvido, pero es importante que se establezcan los medios de comunicación durante el desarrollo de su tienda online. Le interesa implicarse durante el proceso, no sólo cuando haya finalizado.</p>
+<p>Además, le sugiero utilizar alguna herramienta de gestión de proyectos como <a href="https://asana.com/" target="_blank">Asana</a> o <a href="https://basecamp.com/" target="_blank">Basecamp</a> para organizar toda la información comunicada y mantenerse informado sobre los progresos del desarrollo.</p>
+<h4><span style="color: #04948b;">5. ¿Qué funcionalidad adicional desarrollará para mi tienda online?</span></h4>
+<p>Quizás sea una cuestión un tanto técnica, pero realmente debería establecer claramente con el desarrollador cuánto trabajo de más pondrá.</p>
+<p style="padding-left: 30px;">- ¿Utilizará un tema existente o lo creará uno a medida?<br />
+- ¿Desarrollará alguna funcionalidad desde cero?<br />
+- Asegúrese de que cada uno de estos elementos aparecen en su acuerdo por escrito.</p>
+<p>Si tiene pensado utilizar PrestaShop, puede encontrar innovadoras características adicionales en el <a href="http://addons.prestashop.com/es/" target="_blank">Marketplace Oficial de PrestaShop</a>.</p>
+<h4><span style="color: #04948b;">6. ¿Dispondrá mi e-commerce de una versión para móviles?</span></h4>
+<p>A día de hoy resulta obligatorio. Deberá ser capaz de ofrecer a sus clientes una experiencia de compra pulida desde el móvil o la tablet. Consulte con el desarrollador qué tiene pensado hacer para asegurar que su tienda online será funcional y responsive desde el móvil.</p>
+<p>Este artículo le ayudará a entender los distintos elementos que necesita tener en cuenta si quiere optimizar su <a href="http://www.prestashop.com/blog/es/por-que-el-100-de-las-tiendas-online-necesitaran-una-version-compatible-con-movil-y-tablet-en-2014/" target="_blank">e-commerce para quienes le visitan desde el móvil</a>.</p>
+<h4><span style="color: #04948b;">7. ¿Cómo piensa facilitarme editar y gestionar mi tienda online?</span></h4>
+<p>Una vez que su tienda online esté en funcionamiento, necesitará subir contenido, fotos, banners, etc. Incluso puede que quiera añadir o modificar características de su tienda. Descubra qué hará el desarrollador para asegurar que usted podrá editar su pagina sin complicarle la existencia cada vez que lo necesite.</p>
+<p>Debería tener acceso a absolutamente todo. Algún día puede que el desarrollador no siga trabajando para usted y necesite transmitir las contraseñas y el código con un nuevo desarrollador. Asegúrese de que todos los ficheros y credenciales le serán informados. Usted debería ser dueño de todas las cuentas asociadas a su sitio. Así mismo, le recomiendo encarecidamente que le pida a su desarrollador que le explique cómo se están realizando las copias de seguridad de su sitio.</p>
+<h4><span style="color: #04948b;">8. ¿Qué elementos básicos de SEO integrará?</span></h4>
+<p>El desarrollador debería implementar las mejores prácticas conocidas de SEO y facilitarle que usted pueda actualizar su estrategia SEO dada la necesidad. ¡Todo el dinero que emplee en su tienda online podría perderse si sus clientes no pueden encontrarle! Aquí tiene un tutorial rápido sobre los elementos básicos que mejorarán el <a href="http://www.prestashop.com/blog/en/5-profitable-tips-to-drastically-improve-seo-for-your-online-store/ " target="_blank">SEO de su tienda online</a>.</p>
+<h4><span style="color: #04948b;">9. ¿Cómo le ayudará a medir los indicadores clave de desempeño (KPIs)?</span></h4>
+<p>Esto es algo que debe gestionar por anticipado. Entienda cómo podrá medir el rendimiento de su sitio. La buena noticia: en el Back Office de su tienda PrestaShop puede consultar cientos de KPIs. Sin embargo, el desarrollador también deberá mostrarle cómo medir elementos específicos de su tienda online con Google Analytics.</p>
+<p>Aprenda más sobre <a href="http://www.prestashop.com/blog/es/los-10-kpis-que-todo-propietario-de-una-tienda-online-deberia-tener-vigilados/" target="_blank">los mejores indicadores clave de desempeño para un e-commerce</a>.</p>
+<h4><span style="color: #04948b;">10. ¿Cómo realizará pruebas?</span></h4>
+<p>Su tienda online puede tener un aspecto fantástico, pero si no funciona, ¿para qué sirve? El desarrollador debería seguir las mejores prácticas a la hora de realizar pruebas en ella. Asegúrese de que el desarrollador está utilizando un entorno de pruebas y no realiza cambios directamente en su tienda en producción sin realizar las pruebas primero. Hágale explicar cuál es su proceso de pruebas, documentación de errores y de arreglos rápidos.</p>
+<p>Este tipo de información le evitará tener que pagar por soporte adicional una vez haya completado su proyecto. Asegúrese de que las pruebas se realizan desde distintos dispositivos móviles, navegadores, ordenadores y países.</p>
+<p>Este artículo de Practial Ecommerce le proporcionará una <a href="http://www.practicalecommerce.com/articles/4036-What-to-Test-on-an-Ecommerce-Site " target="_blank">lista de control de qué probar en una Tienda Online</a>.</p>
+<h4><span style="color: #04948b;">¡Ya está listo para salir a buscar al desarrollador indicado para su tienda online!</span></h4>
+<p>Somos conscientes de que hay multitud de plataformas e-commerce disponibles, pero si buscas una solución potente, fácil de usar y altamente personalizable PrestaShop es la respuesta. Vea nuestro breve vídeo sobre la próxima <a href="http://vimeo.com/75405291" target="_blank">versión 1.6 de PrestaShop</a> y observe todo lo que podemos aportarle como vendedor online.</p>
+<p>¿Necesita ayuda para encontrar a un desarrollador e-commerce? Descubra nuestra lista de <a href="http://www.prestashop.com/es/asociados-agencia-web" target="_blank">agencias web asociadas</a> de renombre, ¡las mejores de su clase!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.prestashop.com/blog/es/montar-una-tienda-online-10-preguntas-antes-de-contratar-a-un-desarrollador-e-commerce/feed/</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+		</item>
+		<item>
+		<title>Gira Mundial de PrestaShop: Os Presentamos la Joyería japonesa Atelier Shinji</title>
+		<link>http://www.prestashop.com/blog/es/gira-mundial-de-prestashop-os-presentamos-la-joyeria-japonesa-atelier-shinji/</link>
+		<comments>http://www.prestashop.com/blog/es/gira-mundial-de-prestashop-os-presentamos-la-joyeria-japonesa-atelier-shinji/#comments</comments>
+		<pubDate>Wed, 19 Feb 2014 15:26:10 +0000</pubDate>
+		<dc:creator>Quentin Audrain</dc:creator>
+				<category><![CDATA[PrestaShop World Tour]]></category>
+
+		<guid isPermaLink="false">http://www.prestashop.com/blog/es/?p=10892</guid>
+		<description><![CDATA[Nuestra estancia en Japón ha sido fabulosa hasta el momento y estamos aprendiendo muchísimo. En esta ocasión hemos quedado con un vendedor online de Japón: Atelier Shinji. Hemos tenido el placer de compartir con ellos unos momentos en su taller &#8230; <a href="http://www.prestashop.com/blog/es/gira-mundial-de-prestashop-os-presentamos-la-joyeria-japonesa-atelier-shinji/" rel="nofollow" class="more-link">Lea más <span class="meta-nav">&#8594;</span></a>]]></description>
+			<content:encoded><![CDATA[<p><img style="border: 0pt none; float: left; padding-right: 10px; padding-bottom: 10px;" src="http://www.prestashop.com/blog/es/files/2014/02/badge-128x1281.png" alt="" />Nuestra estancia en Japón ha sido fabulosa hasta el momento y estamos aprendiendo muchísimo. En esta ocasión hemos quedado con un vendedor online de Japón: <a href="http://ateliershinji.com/ginza/index.php" target="_blank">Atelier Shinji.</a></p>
+<p>Hemos tenido el placer de compartir con ellos unos momentos en su taller y observar cómo fabrican artesanalmente bellas piezas de joyería únicas. Su tienda ha sido diseñada para que sus clientes puedan ver lo que ocurre en su taller, donde las piezas son diseñadas, moldeadas y acabadas a mano.</p>
+<p style="text-align: left;"><img class="aligncenter  wp-image-10895" title="Japan" src="http://www.prestashop.com/blog/es/files/2014/02/Japan.jpg" alt="" width="540" height="330" /><br />
+<span id="more-10892"></span><br />
+El negocio familiar comenzó hace más de 40 años y han pasado 4 años desde que llevaron su tienda a Internet con PrestaShop. Desde entonces sus ventas han conocido un crecimiento espectacular y han conseguido vender sus joyas hechas a mano por todo el mundo.</p>
+<p style="text-align: center;"><img class="aligncenter size-full wp-image-10894" title="Janine Atelier Shinji" src="http://www.prestashop.com/blog/es/files/2014/02/Janine-Atelier-Shinji.jpg" alt="" width="289" height="214" /></p>
+<p>Conocimos a Janine, Diseñadora y Directora, quien nos explicó detalladamente cómo Atelier Shinji ha sido capaz de abrirse un hueco en el mercado japonés y crear semejante éxito. Presta atención a cómo Janine nos explica cómo han sido capaces de conseguir una gran reputación entre clientes de todo el mundo.</p>
+<p><iframe src="//player.vimeo.com/video/87088334" frameborder="0" width="500" height="281"></iframe></p>
+<p><a href="http://vimeo.com/87088334">Ecommerce WorldTour &#8211; Shinji online store, Tokyo</a> from <a href="http://vimeo.com/prestashop">PrestaShop</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+<p>Apúntate la Gira Mundial de PrestaShop con el hashtag <span style="color: #0000ff;"><strong>#PSWorldTour</strong></span> y sigue nuestro viaje en <a href="https://twitter.com/PrestaShop" target="_blank">Twitter</a>, <a href="http://instagram.com/prestashop#" target="_blank">Instagram</a> y <a href="https://www.facebook.com/prestashop" target="_blank">Facebook</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.prestashop.com/blog/es/gira-mundial-de-prestashop-os-presentamos-la-joyeria-japonesa-atelier-shinji/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>La Mejor Forma de Aumentar la Participación y las Ventas desde el Móvil</title>
+		<link>http://www.prestashop.com/blog/es/la-mejor-forma-de-aumentar-la-participacion-y-las-ventas-desde-el-movil/</link>
+		<comments>http://www.prestashop.com/blog/es/la-mejor-forma-de-aumentar-la-participacion-y-las-ventas-desde-el-movil/#comments</comments>
+		<pubDate>Tue, 18 Feb 2014 17:03:45 +0000</pubDate>
+		<dc:creator>Natalie Beigel</dc:creator>
+				<category><![CDATA[Asociados PrestaShop]]></category>
+
+		<guid isPermaLink="false">http://www.prestashop.com/blog/es/?p=10875</guid>
+		<description><![CDATA[Hay diversidad de argumentos sobre la necesidad de una versión para móviles de su e-commerce. Sin embargo, según un estudio de eMarketer, las ventas al público a través del móvil (m-commerce) generarán 108 MIL MILLONES de dólares en EE.UU en &#8230; <a href="http://www.prestashop.com/blog/es/la-mejor-forma-de-aumentar-la-participacion-y-las-ventas-desde-el-movil/" rel="nofollow" class="more-link">Lea más <span class="meta-nav">&#8594;</span></a>]]></description>
+			<content:encoded><![CDATA[<p>Hay diversidad de argumentos sobre la necesidad de una versión para móviles de su e-commerce. Sin embargo, según un estudio de <a href="http://www.emarketer.com/Article/Smartphones-Tablets-Drive-Faster-Growth-Ecommerce-Sales/1009835" target="_blank">eMarketer</a>, las ventas al público a través del móvil (m-commerce) generarán <strong>108 MIL MILLONES de dólares</strong> en EE.UU en 2017. Si su tasa de conversión móvil es baja, probablemente se deba a que su tienda online no se encuentra preparada para quienes la visitan desde el móvil.</p>
+<p>Lo cual nos lleva a la cuestión que todos los vendedores online se preguntan: ¿Cuál es <strong>la mejor forma de aumentar la participación y las ventas desde el móvil</strong> sin dejarse una fortuna? Bueno, es más sencillo de lo que aparenta – hoy le enseñaremos cómo hacerlo… gratis.</p>
+<p style="text-align: center;"><img class="aligncenter  wp-image-10884" title="the best ways to increase ecommerce mobile engagement and sales" src="http://www.prestashop.com/blog/es/files/2014/02/the-best-ways-to-increase-ecommerce-mobile-engagement-and-sales.png" alt="" width="538" height="248" /></p>
+<p><span id="more-10875"></span></p>
+<h2><span style="color: #3366ff;">¿Cómo preparo mi tienda online para quienes me visitan desde el móvil?</span></h2>
+<p>Recientemente escribí una entrada en el blog sobre <a href="http://www.prestashop.com/blog/es/por-que-el-100-de-las-tiendas-online-necesitaran-una-version-compatible-con-movil-y-tablet-en-2014/" target="_blank">por qué toda tienda online necesita una versión móvil y tablet</a>. Muchos lectores comentaron cuánto costaba adaptar la tienda a móviles y cómo los diseños responsive no conseguían solucionar del todo el problema.</p>
+<p>Por este motivo, hoy vamos a presentaros <a href="http://addons.prestashop.com/en/mobile/8609-browsi.html" target="_blank">Brow.si</a>, ¡un generador de atractivo para la versión móvil de la web de su tienda PrestaShop sin igual!</p>
+<p style="text-align: center;"><img class="aligncenter  wp-image-10883" title="increase mobile engagement 2" src="http://www.prestashop.com/blog/es/files/2014/02/increase-mobile-engagement-2.png" alt="" width="474" height="278" /></p>
+<p>PrestaShop se ha aliado con Brow.si (destacada en <a href="http://techcrunch.com/2013/08/27/brow-si-prestashop/" target="_blank">TechCrunch</a>!), la solución para móviles más innovadora del mercado para que su tienda pueda <strong>proporcionar la mejor experiencia de compra desde el móvil instantáneamente</strong>. Una vez integrado, Brow.si se sobrepondrá en su sitio mediante una capa semitransparente añadiendo funcionalidad inigualable para aquellos clientes que le visiten desde el móvil.</p>
+<h2><span style="color: #3366ff;">Una experiencia de compra en el móvil que cautiva a sus visitantes e impulsa las ventas</span></h2>
+<p>Todo lo que necesita para aumentar su éxito en el móvil! Descubra toda la funcionalidad de Brow.si:</p>
+<h4><span style="color: #0000ff;">Notificaciones Push</span></h4>
+<p>Cuando alguien le visite desde el móvil, podrá informarle sobre las últimas novedades de su tienda.</p>
+<p style="text-align: center;"><img class="aligncenter  wp-image-10882" title="Browsi push notifications" src="http://www.prestashop.com/blog/es/files/2014/02/Browsi-push-notifications.png" alt="" width="394" height="255" /></p>
+<h4><span style="color: #0000ff;">Búsqueda Móvil Simplificada</span></h4>
+<p>A sus visitantes desde el móvil les resultará facilísimo encontrar aquellos que buscaban con la herramienta de búsqueda completa desde cualquier lugar de su sitio web.</p>
+<p style="text-align: center;"><img class="aligncenter  wp-image-10877" title="Browsi easy mobile search" src="http://www.prestashop.com/blog/es/files/2014/02/Browsi-easy-mobile-search.jpg" alt="" width="296" height="384" /></p>
+<address>Compruebe cómo Brow.si funciona en la tienda PrestaShop LoveNails.eu cuando se accede desde un smartphone.</address>
+<h4><span style="color: #0000ff;">Potente Proceso de Pago</span></h4>
+<p>Los clientes podrán finalizar su compra desde cualquier página de su sitio con el carrito móvil único de Brow.si, optimizado para las compras desde el móvil.</p>
+<p style="text-align: center;"><img class="aligncenter  wp-image-10881" title="browsi powerful checkout funnel" src="http://www.prestashop.com/blog/es/files/2014/02/browsi-powerful-checkout-funnel.jpg" alt="" width="339" height="441" /></p>
+<h4><span style="color: #0000ff;">Envío a Redes Sociales en 1-Click</span></h4>
+<p>Permita que sus clientes compartan sus productos en las redes sociales y muestren a sus amigos los mejor de su tienda.</p>
+<p style="text-align: center;"><img class="aligncenter  wp-image-10876" title="browsi 1 click social sharing" src="http://www.prestashop.com/blog/es/files/2014/02/browsi-1-click-social-sharing.jpg" alt="" width="349" height="451" /></p>
+<h4><span style="color: #0000ff;">Y aún hay más</span></h4>
+<p>Registre su tienda online GRATUITAMENTE y personalice Brow.si, vea las opciones de localización, acceda a las analíticas, ajuste del tamaño de la fuente y mucho más. No necesita realizar ningún cambio en su tienda online. Brow.si funciona tanto si su tienda está o no “preparada” para el móvil.</p>
+<p><img class="wp-image-10879 alignnone" title="browsi more options 1" src="http://www.prestashop.com/blog/es/files/2014/02/browsi-more-options-1.jpg" alt="" width="261" height="337" /><img class="wp-image-10880 alignleft" title="browsi more options 2" src="http://www.prestashop.com/blog/es/files/2014/02/browsi-more-options-2.jpg" alt="" width="263" height="339" /></p>
+<h2><span style="color: #3366ff;">¡Una tienda para móviles perfecta en tan sólo unos clicks!</span></h2>
+<p>Simplemente <a href="http://addons.prestashop.com/en/mobile/8609-browsi.html " target="_blank">instale el módulo Brow.si para PrestaShop</a>, entre en la configuración y siga las instrucciones en pantalla para registrar su tienda online gratuitamente. Podrá proporcionarle a sus visitantes funcionalidades muy potentes: búsqueda, descubrimiento, compartición y compra de productos sobre la marcha desde hoy mismo.</p>
+<p style="text-align: center;"><img class="wp-image-10878 aligncenter" title="browsi logo" src="http://www.prestashop.com/blog/es/files/2014/02/browsi-logo.png" alt="" width="334" height="125" /></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.prestashop.com/blog/es/la-mejor-forma-de-aumentar-la-participacion-y-las-ventas-desde-el-movil/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>El Back Office de PrestaShop 1.6: ¿Qué hay de nuevo y mejorado?</title>
+		<link>http://www.prestashop.com/blog/es/el-back-office-de-prestashop-1-6-que-hay-de-nuevo-y-mejorado/</link>
+		<comments>http://www.prestashop.com/blog/es/el-back-office-de-prestashop-1-6-que-hay-de-nuevo-y-mejorado/#comments</comments>
+		<pubDate>Thu, 13 Feb 2014 14:36:34 +0000</pubDate>
+		<dc:creator>Natalie Beigel</dc:creator>
+				<category><![CDATA[Actualidad PrestaShop]]></category>
+
+		<guid isPermaLink="false">http://www.prestashop.com/blog/es/?p=10862</guid>
+		<description><![CDATA[¿Preparado para PrestaShop 1.6? El nuevo Back Office es brillante e inteligente, facilitando a los vendedores online conocer absolutamente todo sobre sus tiendas. Como sabe, hemos trabajado codo con codo con los distintos vendedores y desarrolladores que usan PrestaShop para &#8230; <a href="http://www.prestashop.com/blog/es/el-back-office-de-prestashop-1-6-que-hay-de-nuevo-y-mejorado/" rel="nofollow" class="more-link">Lea más <span class="meta-nav">&#8594;</span></a>]]></description>
+			<content:encoded><![CDATA[<p><img style="border: 0pt none; float: left; padding-right: 10px; padding-bottom: 10px;" src="http://www.prestashop.com/blog/es/files/2014/02/prestashop_1-6.png" alt="" />¿Preparado para PrestaShop 1.6? El nuevo Back Office es brillante e inteligente, facilitando a los vendedores online conocer absolutamente todo sobre sus tiendas. Como sabe, hemos trabajado codo con codo con los distintos vendedores y desarrolladores que usan PrestaShop para traerle la mejor versión de PrestaShop hasta la fecha.</p>
+<p>Sumerjámonos en las nuevas y mejoradas funcionalidades del Back Office de PrestaShop 1.6.</p>
+<p><span id="more-10862"></span></p>
+<h4><span style="color: #8b035f;">Aún Más Fácil de Usar</span></h4>
+<p>El rediseño del Back Office facilita la navegación y es más inteligente que nunca: hemos hecho más simple la gestión de su tienda online eliminando distracciones y resaltando lo que de verdad le importa. Junto a la integración de los datos en tiempo real y notificaciones importantes, nunca se perderá una. Ahora podrá personalizar el menú del Back Office y se le mostrarán valiosos consejos entre las distintas páginas. Eche un vistazo al fantástico rediseño: hace que su acceso al Back Office sea un placer.</p>
+<p style="text-align: center;"><a href="http://www.prestashop.com/blog/es/files/2014/02/OrdersBeta.jpg" target="_blank"><img class="aligncenter  wp-image-10864" title="OrdersBeta" src="http://www.prestashop.com/blog/es/files/2014/02/OrdersBeta.jpg" alt="" width="600" height="285" /></a></p>
+<h4><span style="color: #8b035f;">Completamente Responsive</span></h4>
+<p>Como novedad en la versión 1.6, el Back Office es completamente responsive. Gestione su tienda online sin importar donde esté o qué esté haciendo. El Back Office de la versión 1.6 es completamente responsive y accesible desde cualquier dispositivo móvil o tablet. Ahora tendrá acceso a su tienda donde quiera que vaya.</p>
+<h4><span style="color: #8b035f;">Nuevo Cuadro de Mandos</span></h4>
+<p>¡Le encanta a todos! ¿Ha leído nuestra reciente entrada sobre los detalles del nuevo Cuadro de Mandos? Descubra por qué el <a href="http://www.prestashop.com/blog/en/introducing-prestashop-v-1-6-new-dashboard/" target="_blank">Cuadro de Mandos de PrestaShop 1.6</a> barre a cualquier otro software de venta online con sus nuevas percepciones y funcionalidades.</p>
+<p style="text-align: center;"><a href="http://www.prestashop.com/blog/es/files/2014/02/Dashboard-Beta.png" target="_blank"><img class="aligncenter  wp-image-10863" title="Dashboard-Beta" src="http://www.prestashop.com/blog/es/files/2014/02/Dashboard-Beta.png" alt="" width="484" height="418" /></a></p>
+<h4><span style="color: #8b035f;">KPIs Inteligentes por todo el Back Office</span></h4>
+<p>La nueva versión de PrestaShop se asegura de que entiende cada aspecto de su tienda online donde quiera que esté del Back Office. Con valiosa información localizada entre las diversas páginas seleccionadas, podrá conocer KPIs como qué producto se está vendiendo mejor este mes, el porcentaje de abandono de carritos, la edad media de sus clientes, el número de altas en su boletín y ¡muchos más!</p>
+<p style="text-align: center;"><a href="http://www.prestashop.com/blog/es/files/2014/02/ProductsBeta.png" target="_blank"><img class="aligncenter  wp-image-10866" title="ProductsBeta" src="http://www.prestashop.com/blog/es/files/2014/02/ProductsBeta.png" alt="" width="645" height="356" /></a></p>
+<p>&#8211;<br />
+Asegúrese de guardar la página de <a href="http://www.prestashop.com/es/progreso-prestashop-1-6" target="_blank">Progresos de PrestaShop 1.6</a> en sus favoritos para saber exactamente en qué estamos trabajando. Estese atento para recibir más información sobre PrestaShop 1.6.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.prestashop.com/blog/es/el-back-office-de-prestashop-1-6-que-hay-de-nuevo-y-mejorado/feed/</wfw:commentRss>
+		<slash:comments>6</slash:comments>
+		</item>
+		<item>
+		<title>Gira Mundial de PrestaShop: Descubra el E-commerce Japonés desde la Perspectiva de una Agencia Web</title>
+		<link>http://www.prestashop.com/blog/es/gira-mundial-de-prestashop-descubra-el-e-commerce-japones-desde-la-perspectiva-de-una-agencia-web/</link>
+		<comments>http://www.prestashop.com/blog/es/gira-mundial-de-prestashop-descubra-el-e-commerce-japones-desde-la-perspectiva-de-una-agencia-web/#comments</comments>
+		<pubDate>Wed, 12 Feb 2014 15:43:08 +0000</pubDate>
+		<dc:creator>Quentin Audrain</dc:creator>
+				<category><![CDATA[PrestaShop World Tour]]></category>
+
+		<guid isPermaLink="false">http://www.prestashop.com/blog/es/?p=10846</guid>
+		<description><![CDATA[Ya estamos aquí en Tokio, en nuestra primera parada de la Gira Mundial de PrestaShop. Es una ciudad súper-moderna y dinámica. Hay minoristas y negocios por todas las calles, incluso en los jardines, en pequeños pasajes… Los japoneses compran un &#8230; <a href="http://www.prestashop.com/blog/es/gira-mundial-de-prestashop-descubra-el-e-commerce-japones-desde-la-perspectiva-de-una-agencia-web/" rel="nofollow" class="more-link">Lea más <span class="meta-nav">&#8594;</span></a>]]></description>
+			<content:encoded><![CDATA[<p><img style="border: 0pt none; float: left; padding-right: 10px; padding-bottom: 10px;" src="http://www.prestashop.com/blog/es/files/2014/02/badge-128x128.png" alt="" />Ya estamos aquí en Tokio, en nuestra primera parada de la Gira Mundial de PrestaShop. Es una ciudad súper-moderna y dinámica. Hay minoristas y negocios por todas las calles, incluso en los jardines, en pequeños pasajes… Los japoneses compran un montón, en cualquier sitio.</p>
+<p><img class="alignleft size-full wp-image-10847" title="image" src="http://www.prestashop.com/blog/es/files/2014/02/image.jpeg" alt="" width="600" height="372" /></p>
+<p><span id="more-10846"></span></p>
+<p>Con una población bien equipada y acceso a Internet de alta calidad, las compras también se realizan online. A pesar de que el país está dominado por el gigante del e-commerce Rakuten, miles de tiendas online se crean cada día y encuentran su porción de éxito.</p>
+<p><img class="alignleft size-full wp-image-10848" title="image1" src="http://www.prestashop.com/blog/es/files/2014/02/image1.jpeg" alt="" width="600" height="349" /></p>
+<p><img class="alignleft size-full wp-image-10849" title="image2" src="http://www.prestashop.com/blog/es/files/2014/02/image2.jpeg" alt="" width="600" height="450" /></p>
+<p>Tenemos el placer de conocer a Christopher Green, un experto en e-commerce y CEO de JTS Agency, una agencia especializada en PrestaShop y poseedora de un vasto portafolio de tiendas PrestaShop de calidad. ¡Christopher nos cuenta todo sobre el comercio electrónico en Japón! Aquí tienes el vídeo:</p>
+<p><iframe src="//player.vimeo.com/video/86522720" frameborder="0" width="500" height="281"></iframe></p>
+<p><a href="http://vimeo.com/86522720">Ecommerce WorldTour &#8211; JTS Agency, Tokyo</a> from <a href="http://vimeo.com/prestashop">PrestaShop</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+<p>Apúntate la Gira Mundial de PrestaShop con el hashtag   <strong><span style="color: #99cc00;">#PSWorldTour</span></strong> y sigue nuestro viaje en <a href="https://twitter.com/PrestaShop" target="_blank">Twitter</a>, <a href="http://instagram.com/prestashop#" target="_blank">Instagram</a> y <a href="https://www.facebook.com/prestashop" target="_blank">Facebook</a> !</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.prestashop.com/blog/es/gira-mundial-de-prestashop-descubra-el-e-commerce-japones-desde-la-perspectiva-de-una-agencia-web/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Served from: www.prestashop.com @ 2014-03-08 00:56:03 -->

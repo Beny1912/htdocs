@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+
+		<title>Feedback Me twitter bootstrap example</title>
+
+		<link href="css/bootstrap-combined.min.css" rel="stylesheet">
+
+		<link href="css/jquery.feedback_me.css" rel="stylesheet" type="text/css" />
+
+		
+
+		
+
+		<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+
+		<script type="text/javascript" src="js/jquery.feedback_me.js"></script>
+
+		
+
+
+
+		<script type="text/javascript">
+
+		$(document).ready(function () {
+
+		    //set up some minimal options for the feedback_me plugin
+
+		    fm_options = {
+
+		        bootstrap: true,
+
+		        name_placeholder: "Nombre de contacto o Nombre de empresa",
+
+		        name_required: true,
+		        
+		        name_label: "Nombre",
+		        
+		        show_email: true,
+		        
+		        email_label: "Email",
+		        
+		        email_placeholder: "Introduzca su email",
+		        
+		        email_required: true,
+		        
+		        message_placeholder: "Si eres un desguace y quieres trabajar con nosotros puedes dejarnos un mensaje.",
+				
+				message_label: "Mensaje",
+				
+		        message_required: true,
+		        
+		        title_label: "Eres un desguace?,Contactanos",
+		        
+		        trigger_label: "Desguace?",
+		        
+		        submit_label: "Enviar",
+		        
+		        feedback_url: "send_feedback_bootstrap",
+
+		        custom_params: {
+
+		            csrf: "my_secret_token",
+
+		            user_id: "john_doe",
+
+		            feedback_type: "bootstarp"
+
+		        }
+
+		    };
+
+
+
+		    //init feedback_me plugin
+
+		    fm.init(fm_options);
+
+		    
+
+		    SyntaxHighlighter.all();
+
+		});
+
+		</script>
+
+		
+
+		
+
+	</head>
+
+	<body>
+
+	
+
+	</body>
+
+</html>
+

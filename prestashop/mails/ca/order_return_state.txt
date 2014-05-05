@@ -1,0 +1,18 @@
+
+[{shop_url}] 
+
+Hola {firstname} {lastname}, 
+
+Hem actualitzat el progrés de la vostra devolució
+#{id_order_return}, el nou estat és: "{state_order_return}"
+
+MESSAGE: {message} 		 
+
+You can review your order and download your invoice from the
+"Order history" [{history_url}] section of your
+customer account by clicking "My account"
+[{my_account_url}] on our shop. 
+
+{shop_name} [{shop_url}] powered by
+PrestaShop(tm) [http://www.prestashop.com/] 
+

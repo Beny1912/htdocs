@@ -1,0 +1,1734 @@
+2014/03/11 16:47:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "pedido/create"' in /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bolera/index.php
+---
+2014/03/11 16:48:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "pedido/create"' in /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bolera/index.php
+---
+2014/03/11 16:48:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "pedido/create"' in /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bolera/index.php
+---
+2014/03/11 16:48:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "pedido/create"' in /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bolera/index.php
+---
+2014/03/11 16:48:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "pedido/create"' in /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bolera/index.php
+---
+2014/03/11 16:51:17 [error] [exception.CException] exception 'CException' with message 'La propiedad "CWebUser"."ui" no se encuentra definida.' in /Applications/MAMP/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/auth/CWebUser.php(146): CComponent->__get('ui')
+#1 /Applications/MAMP/htdocs/bolera/themes/bootstrap/views/layouts/main.php(194): CWebUser->__get('ui')
+#2 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/M...')
+#3 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/M...', Array, true)
+#4 /Applications/MAMP/htdocs/yii/framework/web/widgets/CContentDecorator.php(76): CBaseController->renderFile('/Applications/M...', Array, true)
+#5 /Applications/MAMP/htdocs/yii/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate(' ?<h1>Welcome t...')
+#6 /Applications/MAMP/htdocs/yii/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput(' ?<h1>Welcome t...')
+#7 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(206): COutputProcessor->run()
+#8 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#9 /Applications/MAMP/htdocs/bolera/themes/bootstrap/views/layouts/column1.php(3): CBaseController->endContent()
+#10 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/M...')
+#11 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/M...', Array, true)
+#12 /Applications/MAMP/htdocs/yii/framework/web/CController.php(784): CBaseController->renderFile('/Applications/M...', Array, true)
+#13 /Applications/MAMP/htdocs/bolera/protected/controllers/SiteController.php(32): CController->render('index')
+#14 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#15 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#16 /Applications/MAMP/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#17 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#19 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#20 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#21 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/bolera/index.php
+---
+2014/03/11 16:53:32 [error] [exception.CException] exception 'CException' with message 'El alias "bootstrap.widgets.TbNavbar" es inválido. Asegúrese de que apunta a un directorio o archivo existente.' in /Applications/MAMP/htdocs/yii/framework/YiiBase.php:347
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CWidgetFactory.php(146): YiiBase::import('bootstrap.widge...', true)
+#1 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 /Applications/MAMP/htdocs/bolera/themes/bootstrap/views/layouts/main.php(30): CBaseController->widget('bootstrap.widge...', Array)
+#4 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/M...')
+#5 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/M...', Array, true)
+#6 /Applications/MAMP/htdocs/yii/framework/web/widgets/CContentDecorator.php(76): CBaseController->renderFile('/Applications/M...', Array, true)
+#7 /Applications/MAMP/htdocs/yii/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate(' ?<h1>Welcome t...')
+#8 /Applications/MAMP/htdocs/yii/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput(' ?<h1>Welcome t...')
+#9 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(206): COutputProcessor->run()
+#10 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#11 /Applications/MAMP/htdocs/bolera/themes/bootstrap/views/layouts/column1.php(3): CBaseController->endContent()
+#12 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/M...')
+#13 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/M...', Array, true)
+#14 /Applications/MAMP/htdocs/yii/framework/web/CController.php(784): CBaseController->renderFile('/Applications/M...', Array, true)
+#15 /Applications/MAMP/htdocs/bolera/protected/controllers/SiteController.php(32): CController->render('index')
+#16 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#17 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#18 /Applications/MAMP/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#19 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#21 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#22 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#23 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/bolera/index.php
+---
+2014/03/11 16:53:36 [error] [exception.CException] exception 'CException' with message 'El alias "bootstrap.widgets.TbNavbar" es inválido. Asegúrese de que apunta a un directorio o archivo existente.' in /Applications/MAMP/htdocs/yii/framework/YiiBase.php:347
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CWidgetFactory.php(146): YiiBase::import('bootstrap.widge...', true)
+#1 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 /Applications/MAMP/htdocs/bolera/themes/bootstrap/views/layouts/main.php(30): CBaseController->widget('bootstrap.widge...', Array)
+#4 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/M...')
+#5 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/M...', Array, true)
+#6 /Applications/MAMP/htdocs/yii/framework/web/widgets/CContentDecorator.php(76): CBaseController->renderFile('/Applications/M...', Array, true)
+#7 /Applications/MAMP/htdocs/yii/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate(' ?<h1>Welcome t...')
+#8 /Applications/MAMP/htdocs/yii/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput(' ?<h1>Welcome t...')
+#9 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(206): COutputProcessor->run()
+#10 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#11 /Applications/MAMP/htdocs/bolera/themes/bootstrap/views/layouts/column1.php(3): CBaseController->endContent()
+#12 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/M...')
+#13 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/M...', Array, true)
+#14 /Applications/MAMP/htdocs/yii/framework/web/CController.php(784): CBaseController->renderFile('/Applications/M...', Array, true)
+#15 /Applications/MAMP/htdocs/bolera/protected/controllers/SiteController.php(32): CController->render('index')
+#16 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#17 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#18 /Applications/MAMP/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#19 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#21 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#22 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#23 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/bolera/index.php
+---
+2014/03/11 16:54:47 [error] [exception.CException] exception 'CException' with message 'El alias "bootstrap.widgets.TbNavbar" es inválido. Asegúrese de que apunta a un directorio o archivo existente.' in /Applications/MAMP/htdocs/yii/framework/YiiBase.php:347
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CWidgetFactory.php(146): YiiBase::import('bootstrap.widge...', true)
+#1 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 /Applications/MAMP/htdocs/bolera/themes/bootstrap/views/layouts/main.php(30): CBaseController->widget('bootstrap.widge...', Array)
+#4 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/M...')
+#5 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/M...', Array, true)
+#6 /Applications/MAMP/htdocs/yii/framework/web/widgets/CContentDecorator.php(76): CBaseController->renderFile('/Applications/M...', Array, true)
+#7 /Applications/MAMP/htdocs/yii/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate(' ?<h1>Welcome t...')
+#8 /Applications/MAMP/htdocs/yii/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput(' ?<h1>Welcome t...')
+#9 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(206): COutputProcessor->run()
+#10 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#11 /Applications/MAMP/htdocs/bolera/themes/bootstrap/views/layouts/column1.php(3): CBaseController->endContent()
+#12 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/M...')
+#13 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/M...', Array, true)
+#14 /Applications/MAMP/htdocs/yii/framework/web/CController.php(784): CBaseController->renderFile('/Applications/M...', Array, true)
+#15 /Applications/MAMP/htdocs/bolera/protected/controllers/SiteController.php(32): CController->render('index')
+#16 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#17 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#18 /Applications/MAMP/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#19 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#21 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#22 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#23 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/bolera/index.php
+---
+2014/03/11 16:55:38 [error] [exception.CException] exception 'CException' with message 'El alias "bootstrap.widgets.TbNavbar" es inválido. Asegúrese de que apunta a un directorio o archivo existente.' in /Applications/MAMP/htdocs/yii/framework/YiiBase.php:347
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CWidgetFactory.php(146): YiiBase::import('bootstrap.widge...', true)
+#1 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 /Applications/MAMP/htdocs/bolera/themes/bootstrap/views/layouts/main.php(30): CBaseController->widget('bootstrap.widge...', Array)
+#4 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/M...')
+#5 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/M...', Array, true)
+#6 /Applications/MAMP/htdocs/yii/framework/web/widgets/CContentDecorator.php(76): CBaseController->renderFile('/Applications/M...', Array, true)
+#7 /Applications/MAMP/htdocs/yii/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate(' ?<h1>Welcome t...')
+#8 /Applications/MAMP/htdocs/yii/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput(' ?<h1>Welcome t...')
+#9 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(206): COutputProcessor->run()
+#10 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#11 /Applications/MAMP/htdocs/bolera/themes/bootstrap/views/layouts/column1.php(3): CBaseController->endContent()
+#12 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/M...')
+#13 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/M...', Array, true)
+#14 /Applications/MAMP/htdocs/yii/framework/web/CController.php(784): CBaseController->renderFile('/Applications/M...', Array, true)
+#15 /Applications/MAMP/htdocs/bolera/protected/controllers/SiteController.php(32): CController->render('index')
+#16 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#17 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#18 /Applications/MAMP/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#19 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('')
+#21 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#22 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#23 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/bolera/index.php
+---
+2014/03/13 07:57:17 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'grupo_id' in 'where clause'. La sentencia SQL ejecutada fue: SELECT * FROM `grupo` `t` WHERE grupo_id=:grupo_Id.
+in /Applications/MAMP/htdocs/bolera/protected/views/registro/_form.php (27)
+in /Applications/MAMP/htdocs/bolera/protected/views/registro/create.php (15)
+in /Applications/MAMP/htdocs/bolera/protected/controllers/RegistroController.php (88)
+2014/03/13 07:57:17 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'grupo_id' in 'where clause'. The SQL statement executed was: SELECT * FROM `grupo` `t` WHERE grupo_id=:grupo_Id' in /Applications/MAMP/htdocs/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /Applications/MAMP/htdocs/yii/framework/db/ar/CActiveRecord.php(1351): CDbCommand->queryAll()
+#2 /Applications/MAMP/htdocs/yii/framework/db/ar/CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#3 /Applications/MAMP/htdocs/bolera/protected/views/registro/_form.php(27): CActiveRecord->findAll('grupo_id=:grupo...', Array)
+#4 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/M...')
+#5 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/M...', Array, true)
+#6 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/M...', Array, true)
+#7 /Applications/MAMP/htdocs/bolera/protected/views/registro/create.php(15): CController->renderPartial('_form', Array)
+#8 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/M...')
+#9 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/M...', Array, true)
+#10 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/M...', Array, true)
+#11 /Applications/MAMP/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#12 /Applications/MAMP/htdocs/bolera/protected/controllers/RegistroController.php(88): CController->render('create', Array)
+#13 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): RegistroController->actionCreate()
+#14 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#15 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#17 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#21 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#23 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('registro/create')
+#24 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#25 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/bolera/index.php?r=registro/create
+---
+2014/03/13 07:59:34 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'grupo_id' in 'where clause'. La sentencia SQL ejecutada fue: SELECT * FROM `grupo` `t` WHERE grupo_id=:grupo_Id.
+in /Applications/MAMP/htdocs/bolera/protected/views/registro/_form.php (27)
+in /Applications/MAMP/htdocs/bolera/protected/views/registro/create.php (15)
+in /Applications/MAMP/htdocs/bolera/protected/controllers/RegistroController.php (88)
+2014/03/13 07:59:34 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'grupo_id' in 'where clause'. The SQL statement executed was: SELECT * FROM `grupo` `t` WHERE grupo_id=:grupo_Id' in /Applications/MAMP/htdocs/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /Applications/MAMP/htdocs/yii/framework/db/ar/CActiveRecord.php(1351): CDbCommand->queryAll()
+#2 /Applications/MAMP/htdocs/yii/framework/db/ar/CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#3 /Applications/MAMP/htdocs/bolera/protected/views/registro/_form.php(27): CActiveRecord->findAll('grupo_id=:grupo...', Array)
+#4 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/M...')
+#5 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/M...', Array, true)
+#6 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/M...', Array, true)
+#7 /Applications/MAMP/htdocs/bolera/protected/views/registro/create.php(15): CController->renderPartial('_form', Array)
+#8 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/M...')
+#9 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/M...', Array, true)
+#10 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/M...', Array, true)
+#11 /Applications/MAMP/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#12 /Applications/MAMP/htdocs/bolera/protected/controllers/RegistroController.php(88): CController->render('create', Array)
+#13 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): RegistroController->actionCreate()
+#14 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#15 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#17 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#21 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#23 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('registro/create')
+#24 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#25 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/bolera/index.php?r=registro/create
+---
+2014/03/13 07:59:38 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'grupo_id' in 'where clause'. La sentencia SQL ejecutada fue: SELECT * FROM `grupo` `t` WHERE grupo_id=:grupo_Id.
+in /Applications/MAMP/htdocs/bolera/protected/views/registro/_form.php (27)
+in /Applications/MAMP/htdocs/bolera/protected/views/registro/create.php (15)
+in /Applications/MAMP/htdocs/bolera/protected/controllers/RegistroController.php (88)
+2014/03/13 07:59:38 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'grupo_id' in 'where clause'. The SQL statement executed was: SELECT * FROM `grupo` `t` WHERE grupo_id=:grupo_Id' in /Applications/MAMP/htdocs/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /Applications/MAMP/htdocs/yii/framework/db/ar/CActiveRecord.php(1351): CDbCommand->queryAll()
+#2 /Applications/MAMP/htdocs/yii/framework/db/ar/CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#3 /Applications/MAMP/htdocs/bolera/protected/views/registro/_form.php(27): CActiveRecord->findAll('grupo_id=:grupo...', Array)
+#4 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/M...')
+#5 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/M...', Array, true)
+#6 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/M...', Array, true)
+#7 /Applications/MAMP/htdocs/bolera/protected/views/registro/create.php(15): CController->renderPartial('_form', Array)
+#8 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/M...')
+#9 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/M...', Array, true)
+#10 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/M...', Array, true)
+#11 /Applications/MAMP/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#12 /Applications/MAMP/htdocs/bolera/protected/controllers/RegistroController.php(88): CController->render('create', Array)
+#13 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): RegistroController->actionCreate()
+#14 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#15 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#17 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#21 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#23 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('registro/create')
+#24 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#25 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/bolera/index.php?r=registro/create
+---
+2014/03/13 08:05:18 [error] [exception.CException] exception 'CException' with message 'La propiedad "Registro"."alias" no se encuentra definida.' in /Applications/MAMP/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('alias')
+#1 /Applications/MAMP/htdocs/bolera/protected/views/registro/_form.php(27): CActiveRecord->__get('alias')
+#2 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/M...')
+#3 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/M...', Array, true)
+#4 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/M...', Array, true)
+#5 /Applications/MAMP/htdocs/bolera/protected/views/registro/create.php(15): CController->renderPartial('_form', Array)
+#6 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/M...')
+#7 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/M...', Array, true)
+#8 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/M...', Array, true)
+#9 /Applications/MAMP/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#10 /Applications/MAMP/htdocs/bolera/protected/controllers/RegistroController.php(88): CController->render('create', Array)
+#11 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): RegistroController->actionCreate()
+#12 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#13 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#15 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#19 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#21 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('registro/create')
+#22 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#23 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/bolera/index.php?r=registro/create
+---
+2014/03/13 08:05:21 [error] [exception.CException] exception 'CException' with message 'La propiedad "Registro"."alias" no se encuentra definida.' in /Applications/MAMP/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('alias')
+#1 /Applications/MAMP/htdocs/bolera/protected/views/registro/_form.php(27): CActiveRecord->__get('alias')
+#2 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/M...')
+#3 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/M...', Array, true)
+#4 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/M...', Array, true)
+#5 /Applications/MAMP/htdocs/bolera/protected/views/registro/create.php(15): CController->renderPartial('_form', Array)
+#6 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/M...')
+#7 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/M...', Array, true)
+#8 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/M...', Array, true)
+#9 /Applications/MAMP/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#10 /Applications/MAMP/htdocs/bolera/protected/controllers/RegistroController.php(88): CController->render('create', Array)
+#11 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): RegistroController->actionCreate()
+#12 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#13 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#15 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#19 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#21 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('registro/create')
+#22 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#23 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/bolera/index.php?r=registro/create
+---
+2014/03/13 08:13:56 [error] [exception.CException] exception 'CException' with message 'La propiedad "Registro"."alias" no se encuentra definida.' in /Applications/MAMP/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('alias')
+#1 /Applications/MAMP/htdocs/bolera/protected/views/registro/_form.php(27): CActiveRecord->__get('alias')
+#2 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/M...')
+#3 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/M...', Array, true)
+#4 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/M...', Array, true)
+#5 /Applications/MAMP/htdocs/bolera/protected/views/registro/create.php(15): CController->renderPartial('_form', Array)
+#6 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/M...')
+#7 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/M...', Array, true)
+#8 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/M...', Array, true)
+#9 /Applications/MAMP/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#10 /Applications/MAMP/htdocs/bolera/protected/controllers/RegistroController.php(88): CController->render('create', Array)
+#11 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): RegistroController->actionCreate()
+#12 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#13 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#15 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#19 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#21 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('registro/create')
+#22 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#23 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/bolera/index.php?r=registro/create
+---
+2014/03/13 08:13:59 [error] [exception.CException] exception 'CException' with message 'La propiedad "Registro"."alias" no se encuentra definida.' in /Applications/MAMP/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('alias')
+#1 /Applications/MAMP/htdocs/bolera/protected/views/registro/_form.php(27): CActiveRecord->__get('alias')
+#2 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/M...')
+#3 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/M...', Array, true)
+#4 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/M...', Array, true)
+#5 /Applications/MAMP/htdocs/bolera/protected/views/registro/create.php(15): CController->renderPartial('_form', Array)
+#6 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/M...')
+#7 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/M...', Array, true)
+#8 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/M...', Array, true)
+#9 /Applications/MAMP/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#10 /Applications/MAMP/htdocs/bolera/protected/controllers/RegistroController.php(88): CController->render('create', Array)
+#11 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): RegistroController->actionCreate()
+#12 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#13 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#15 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#19 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#21 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('registro/create')
+#22 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#23 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/bolera/index.php?r=registro/create
+---
+2014/03/13 08:14:25 [error] [exception.CException] exception 'CException' with message 'La propiedad "Registro"."alias" no se encuentra definida.' in /Applications/MAMP/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('alias')
+#1 /Applications/MAMP/htdocs/bolera/protected/views/registro/_form.php(27): CActiveRecord->__get('alias')
+#2 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/M...')
+#3 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/M...', Array, true)
+#4 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/M...', Array, true)
+#5 /Applications/MAMP/htdocs/bolera/protected/views/registro/create.php(15): CController->renderPartial('_form', Array)
+#6 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/M...')
+#7 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/M...', Array, true)
+#8 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/M...', Array, true)
+#9 /Applications/MAMP/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#10 /Applications/MAMP/htdocs/bolera/protected/controllers/RegistroController.php(88): CController->render('create', Array)
+#11 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): RegistroController->actionCreate()
+#12 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#13 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#15 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#19 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#21 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('registro/create')
+#22 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#23 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/bolera/index.php?r=registro/create
+---
+2014/03/13 08:14:32 [error] [exception.CException] exception 'CException' with message 'La propiedad "Registro"."alias" no se encuentra definida.' in /Applications/MAMP/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('alias')
+#1 /Applications/MAMP/htdocs/bolera/protected/views/registro/_form.php(27): CActiveRecord->__get('alias')
+#2 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/M...')
+#3 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/M...', Array, true)
+#4 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/M...', Array, true)
+#5 /Applications/MAMP/htdocs/bolera/protected/views/registro/create.php(15): CController->renderPartial('_form', Array)
+#6 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/M...')
+#7 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/M...', Array, true)
+#8 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/M...', Array, true)
+#9 /Applications/MAMP/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#10 /Applications/MAMP/htdocs/bolera/protected/controllers/RegistroController.php(88): CController->render('create', Array)
+#11 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): RegistroController->actionCreate()
+#12 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#13 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#15 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#19 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#21 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('registro/create')
+#22 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#23 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/bolera/index.php?r=registro/create
+---
+2014/03/13 08:14:35 [error] [exception.CException] exception 'CException' with message 'La propiedad "Registro"."alias" no se encuentra definida.' in /Applications/MAMP/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('alias')
+#1 /Applications/MAMP/htdocs/bolera/protected/views/registro/_form.php(27): CActiveRecord->__get('alias')
+#2 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/M...')
+#3 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/M...', Array, true)
+#4 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/M...', Array, true)
+#5 /Applications/MAMP/htdocs/bolera/protected/views/registro/create.php(15): CController->renderPartial('_form', Array)
+#6 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/M...')
+#7 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/M...', Array, true)
+#8 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/M...', Array, true)
+#9 /Applications/MAMP/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#10 /Applications/MAMP/htdocs/bolera/protected/controllers/RegistroController.php(88): CController->render('create', Array)
+#11 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): RegistroController->actionCreate()
+#12 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#13 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#15 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#19 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#21 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('registro/create')
+#22 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#23 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/bolera/index.php?r=registro/create
+---
+2014/03/13 09:17:32 [error] [php] Undefined variable: salida (/Applications/MAMP/htdocs/bolera/protected/views/registro/_form.php:60)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): RegistroController->renderFile()
+#1 /Applications/MAMP/htdocs/bolera/protected/views/registro/create.php(15): RegistroController->renderPartial()
+#2 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(126): require()
+#3 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): RegistroController->renderInternal()
+#4 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): RegistroController->renderFile()
+#5 /Applications/MAMP/htdocs/yii/framework/web/CController.php(782): RegistroController->renderPartial()
+#6 /Applications/MAMP/htdocs/bolera/protected/controllers/RegistroController.php(120): RegistroController->render()
+#7 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): RegistroController->actionCreate()
+#8 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#9 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(133): RegistroController->runAction()
+#10 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#11 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#12 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): RegistroController->filterAccessControl()
+#13 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#14 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#15 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): RegistroController->runActionWithFilters()
+#16 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): RegistroController->run()
+#17 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#18 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#19 /Applications/MAMP/htdocs/bolera/index.php(13): CWebApplication->run()
+REQUEST_URI=/bolera/index.php?r=registro/create&id=7
+in /Applications/MAMP/htdocs/bolera/protected/views/registro/_form.php (60)
+in /Applications/MAMP/htdocs/bolera/protected/views/registro/create.php (15)
+in /Applications/MAMP/htdocs/bolera/protected/controllers/RegistroController.php (120)
+2014/03/13 09:24:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "chicos/admin"' in /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('chicos/admin')
+#1 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bolera/index.php?r=chicos/admin
+---
+2014/03/13 09:46:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "buscarsalida" solicitada.' in /Applications/MAMP/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CController.php(270): CController->missingAction('buscarsalida')
+#1 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('buscarsalida')
+#2 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/buscarsali...')
+#3 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/bolera/index.php?r=site/buscarsalida
+---
+2014/03/13 09:47:18 [error] [php] mysql_fetch_array() expects parameter 1 to be resource, object given (/Applications/MAMP/htdocs/bolera/protected/views/site/buscarsalida.php:52)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#1 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): SiteController->renderFile()
+#2 /Applications/MAMP/htdocs/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#3 /Applications/MAMP/htdocs/bolera/protected/controllers/SiteController.php(38): SiteController->render()
+#4 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionBuscarsalida()
+#5 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /Applications/MAMP/htdocs/yii/framework/web/CController.php(286): SiteController->runAction()
+#7 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#8 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#9 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Applications/MAMP/htdocs/bolera/index.php(13): CWebApplication->run()
+REQUEST_URI=/bolera/index.php?r=site/buscarsalida
+in /Applications/MAMP/htdocs/bolera/protected/views/site/buscarsalida.php (52)
+in /Applications/MAMP/htdocs/bolera/protected/controllers/SiteController.php (38)
+in /Applications/MAMP/htdocs/bolera/index.php (13)
+2014/03/13 09:47:31 [error] [php] mysql_fetch_array() expects parameter 1 to be resource, object given (/Applications/MAMP/htdocs/bolera/protected/views/site/buscarsalida.php:52)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#1 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): SiteController->renderFile()
+#2 /Applications/MAMP/htdocs/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#3 /Applications/MAMP/htdocs/bolera/protected/controllers/SiteController.php(38): SiteController->render()
+#4 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionBuscarsalida()
+#5 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /Applications/MAMP/htdocs/yii/framework/web/CController.php(286): SiteController->runAction()
+#7 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#8 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#9 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Applications/MAMP/htdocs/bolera/index.php(13): CWebApplication->run()
+REQUEST_URI=/bolera/index.php?r=site/buscarsalida
+in /Applications/MAMP/htdocs/bolera/protected/views/site/buscarsalida.php (52)
+in /Applications/MAMP/htdocs/bolera/protected/controllers/SiteController.php (38)
+in /Applications/MAMP/htdocs/bolera/index.php (13)
+2014/03/13 10:04:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "chicos/admin"' in /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('chicos/admin')
+#1 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bolera/index.php?r=chicos/admin
+---
+2014/03/13 10:47:25 [error] [exception.CException] exception 'CException' with message 'GrupoController no ha podido encontrar la vista "buscarsalida" solicitada.' in /Applications/MAMP/htdocs/yii/framework/web/CController.php:878
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('buscarsalida', NULL, true)
+#1 /Applications/MAMP/htdocs/bolera/protected/controllers/GrupoController.php(94): CController->render('buscarsalida')
+#2 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): GrupoController->actionCreate()
+#3 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#10 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#12 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('grupo/create')
+#13 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/bolera/index.php?r=grupo/create
+HTTP_REFERER=http://localhost:8888/bolera/index.php?r=site/login
+---
+2014/03/13 10:48:12 [error] [exception.CException] exception 'CException' with message 'GrupoController no ha podido encontrar la vista "site/buscarsalida" solicitada.' in /Applications/MAMP/htdocs/yii/framework/web/CController.php:878
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('site/buscarsali...', NULL, true)
+#1 /Applications/MAMP/htdocs/bolera/protected/controllers/GrupoController.php(94): CController->render('site/buscarsali...')
+#2 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): GrupoController->actionCreate()
+#3 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#10 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#12 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('grupo/create')
+#13 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/bolera/index.php?r=grupo/create
+HTTP_REFERER=http://localhost:8888/bolera/index.php?r=site/login
+---
+2014/03/13 10:48:14 [error] [exception.CException] exception 'CException' with message 'GrupoController no ha podido encontrar la vista "site/buscarsalida" solicitada.' in /Applications/MAMP/htdocs/yii/framework/web/CController.php:878
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('site/buscarsali...', NULL, true)
+#1 /Applications/MAMP/htdocs/bolera/protected/controllers/GrupoController.php(94): CController->render('site/buscarsali...')
+#2 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): GrupoController->actionCreate()
+#3 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#10 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#12 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('grupo/create')
+#13 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/bolera/index.php?r=grupo/create
+HTTP_REFERER=http://localhost:8888/bolera/index.php?r=site/login
+---
+2014/03/13 10:56:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "chicos/admin"' in /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('chicos/admin')
+#1 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bolera/index.php?r=chicos/admin
+---
+2014/03/13 11:25:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "index.php?r=socio/create"' in /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('index.php?r=soc...')
+#1 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bolera/index.php?r=index.php?r=socio/create
+HTTP_REFERER=http://localhost:8888/bolera/index.php
+---
+2014/03/13 11:26:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "index.php?r=grupo/create"' in /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('index.php?r=gru...')
+#1 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bolera/index.php?r=index.php?r=grupo/create
+HTTP_REFERER=http://localhost:8888/bolera/index.php?r=index.php?r=socio/create
+---
+2014/03/13 11:26:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "index.php?r=grupo/create"' in /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('index.php?r=gru...')
+#1 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bolera/index.php?r=index.php?r=grupo/create
+HTTP_REFERER=http://localhost:8888/bolera/index.php?r=index.php?r=grupo/create
+---
+2014/03/13 11:26:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "index.php?r=grupo/create"' in /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('index.php?r=gru...')
+#1 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bolera/index.php?r=index.php?r=grupo/create
+HTTP_REFERER=http://localhost:8888/bolera/
+---
+2014/03/13 11:27:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "index.php?r=grupo/create"' in /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('index.php?r=gru...')
+#1 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bolera/index.php?r=index.php?r=grupo/create
+HTTP_REFERER=http://localhost:8888/bolera/index.php?r=index.php?r=grupo/create
+---
+2014/03/13 11:28:01 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bolera.socio' doesn't exist. La sentencia SQL ejecutada fue: SHOW FULL COLUMNS FROM `socio`.
+in /Applications/MAMP/htdocs/bolera/protected/controllers/SocioController.php (144)
+in /Applications/MAMP/htdocs/bolera/index.php (13)
+2014/03/13 11:28:01 [error] [exception.CDbException] exception 'CDbException' with message 'La tabla "socio" definida en la clase active record "Socio" no se ha podido encontrar en la base de datos.' in /Applications/MAMP/htdocs/yii/framework/db/ar/CActiveRecord.php:2362
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/db/ar/CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Socio))
+#1 /Applications/MAMP/htdocs/yii/framework/db/ar/CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 /Applications/MAMP/htdocs/bolera/protected/controllers/SocioController.php(144): CActiveRecord->__construct('search')
+#3 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): SocioController->actionAdmin()
+#4 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#13 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('socio/admin')
+#14 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/bolera/index.php?r=socio/admin
+HTTP_REFERER=http://localhost:8888/bolera/index.php?r=grupo/create
+---
+2014/03/13 12:00:36 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in /Applications/MAMP/htdocs/yii/framework/web/CController.php:336
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#9 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('chico/view')
+#10 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/bolera/index.php?r=chico/view
+---
+2014/03/13 12:01:02 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in /Applications/MAMP/htdocs/yii/framework/web/CController.php:336
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#9 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('chico/view')
+#10 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/bolera/index.php?r=chico/view
+---
+2014/03/13 12:01:28 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in /Applications/MAMP/htdocs/yii/framework/web/CController.php:336
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#9 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('chico/view')
+#10 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/bolera/index.php?r=chico/view&grupo=7
+---
+2014/03/13 12:10:45 [error] [php] Undefined variable: query (/Applications/MAMP/htdocs/bolera/protected/views/grupo/view.php:30)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): GrupoController->renderFile()
+#1 /Applications/MAMP/htdocs/yii/framework/web/CController.php(782): GrupoController->renderPartial()
+#2 /Applications/MAMP/htdocs/bolera/protected/controllers/GrupoController.php(56): GrupoController->render()
+#3 unknown(0): GrupoController->actionView()
+#4 /Applications/MAMP/htdocs/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#5 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(133): GrupoController->runAction()
+#8 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#9 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#10 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): GrupoController->filterAccessControl()
+#11 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#12 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#13 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): GrupoController->runActionWithFilters()
+#14 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): GrupoController->run()
+#15 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#16 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#17 /Applications/MAMP/htdocs/bolera/index.php(13): CWebApplication->run()
+REQUEST_URI=/bolera/index.php?r=grupo/view&id=1
+in /Applications/MAMP/htdocs/bolera/protected/views/grupo/view.php (30)
+in /Applications/MAMP/htdocs/bolera/protected/controllers/GrupoController.php (56)
+in /Applications/MAMP/htdocs/bolera/index.php (13)
+2014/03/13 20:19:32 [error] [php] mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given (/Applications/MAMP/htdocs/bolera/protected/views/site/buscarsalida.php:24)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#1 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): SiteController->renderFile()
+#2 /Applications/MAMP/htdocs/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#3 /Applications/MAMP/htdocs/bolera/protected/controllers/SiteController.php(41): SiteController->render()
+#4 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionBuscarsalida()
+#5 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /Applications/MAMP/htdocs/yii/framework/web/CController.php(286): SiteController->runAction()
+#7 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#8 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#9 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Applications/MAMP/htdocs/bolera/index.php(13): CWebApplication->run()
+REQUEST_URI=/bolera/index.php?r=site/buscarsalida
+in /Applications/MAMP/htdocs/bolera/protected/views/site/buscarsalida.php (24)
+in /Applications/MAMP/htdocs/bolera/protected/controllers/SiteController.php (41)
+in /Applications/MAMP/htdocs/bolera/index.php (13)
+2014/03/13 20:34:55 [error] [php] Undefined index: grupo_id (/Applications/MAMP/htdocs/bolera/protected/views/site/buscarsalida.php:61)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): SiteController->renderFile()
+#1 /Applications/MAMP/htdocs/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /Applications/MAMP/htdocs/bolera/protected/controllers/SiteController.php(41): SiteController->render()
+#3 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionBuscarsalida()
+#4 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/yii/framework/web/CController.php(286): SiteController->runAction()
+#6 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/bolera/index.php(13): CWebApplication->run()
+REQUEST_URI=/bolera/index.php?r=site/buscarsalida
+in /Applications/MAMP/htdocs/bolera/protected/views/site/buscarsalida.php (61)
+in /Applications/MAMP/htdocs/bolera/protected/controllers/SiteController.php (41)
+in /Applications/MAMP/htdocs/bolera/index.php (13)
+2014/03/13 21:38:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /Applications/MAMP/htdocs/bolera/protected/controllers/GrupoController.php:193
+Stack trace:
+#0 /Applications/MAMP/htdocs/bolera/protected/controllers/GrupoController.php(55): GrupoController->loadModel('')
+#1 [internal function]: GrupoController->actionView('')
+#2 /Applications/MAMP/htdocs/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(GrupoController), Array)
+#3 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(GrupoController), Object(ReflectionMethod), Array)
+#4 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#13 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('grupo/view')
+#14 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/bolera/index.php?r=grupo/view&id=
+HTTP_REFERER=http://localhost:8888/bolera/index.php
+---
+2014/03/13 23:03:00 [error] [exception.CException] exception 'CException' with message 'La propiedad "Socio"."grupo_socio" no se encuentra definida.' in /Applications/MAMP/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('grupo_socio')
+#1 /Applications/MAMP/htdocs/yii/framework/validators/CNumberValidator.php(78): CActiveRecord->__get('grupo_socio')
+#2 /Applications/MAMP/htdocs/yii/framework/validators/CValidator.php(213): CNumberValidator->validateAttribute(Object(Socio), 'grupo_socio')
+#3 /Applications/MAMP/htdocs/yii/framework/base/CModel.php(159): CValidator->validate(Object(Socio), NULL)
+#4 /Applications/MAMP/htdocs/yii/framework/db/ar/CActiveRecord.php(805): CModel->validate(NULL)
+#5 /Applications/MAMP/htdocs/bolera/protected/controllers/SocioController.php(73): CActiveRecord->save()
+#6 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): SocioController->actionCreate()
+#7 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#14 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#16 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('socio/create')
+#17 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#18 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/bolera/index.php?r=socio/create
+HTTP_REFERER=http://localhost:8888/bolera/index.php?r=socio/create
+---
+2014/03/13 23:07:04 [error] [exception.CException] exception 'CException' with message 'La propiedad "Socio"."grupo_socio" no se encuentra definida.' in /Applications/MAMP/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('grupo_socio')
+#1 /Applications/MAMP/htdocs/bolera/protected/models/Socio.php(96): CActiveRecord->__get('grupo_socio')
+#2 /Applications/MAMP/htdocs/bolera/protected/views/socio/admin.php(42): Socio->search()
+#3 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/M...')
+#4 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/M...', Array, true)
+#5 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/M...', Array, true)
+#6 /Applications/MAMP/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#7 /Applications/MAMP/htdocs/bolera/protected/controllers/SocioController.php(152): CController->render('admin', Array)
+#8 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): SocioController->actionAdmin()
+#9 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#12 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#16 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#18 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('socio/admin')
+#19 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#20 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/bolera/index.php?r=socio/admin
+---
+2014/03/13 23:07:47 [error] [exception.CException] exception 'CException' with message 'La propiedad "Socio"."grupo_socio" no se encuentra definida.' in /Applications/MAMP/htdocs/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('grupo_socio')
+#1 /Applications/MAMP/htdocs/bolera/protected/models/Socio.php(96): CActiveRecord->__get('grupo_socio')
+#2 /Applications/MAMP/htdocs/bolera/protected/views/socio/admin.php(42): Socio->search()
+#3 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/M...')
+#4 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/M...', Array, true)
+#5 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/M...', Array, true)
+#6 /Applications/MAMP/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#7 /Applications/MAMP/htdocs/bolera/protected/controllers/SocioController.php(152): CController->render('admin', Array)
+#8 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): SocioController->actionAdmin()
+#9 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#12 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#16 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#18 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('socio/admin')
+#19 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#20 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/bolera/index.php?r=socio/admin
+---
+2014/03/13 23:08:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "sociog/create"' in /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('sociog/create')
+#1 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bolera/index.php?r=sociog/create
+---
+2014/03/13 23:12:18 [warning] [application] Error al establecer unsafe al atributo "grupo_id" de "Registrosocio".
+in /Applications/MAMP/htdocs/bolera/protected/controllers/RegistrosocioController.php (72)
+in /Applications/MAMP/htdocs/bolera/index.php (13)
+2014/03/13 23:18:15 [error] [php] mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given (/Applications/MAMP/htdocs/bolera/protected/views/site/buscarsalida.php:59)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): RegistrosocioController->renderInternal()
+#1 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): RegistrosocioController->renderFile()
+#2 /Applications/MAMP/htdocs/bolera/protected/controllers/RegistrosocioController.php(53): RegistrosocioController->renderPartial()
+#3 unknown(0): RegistrosocioController->actionView()
+#4 /Applications/MAMP/htdocs/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#5 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(133): RegistrosocioController->runAction()
+#8 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#9 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#10 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): RegistrosocioController->filterAccessControl()
+#11 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#12 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#13 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): RegistrosocioController->runActionWithFilters()
+#14 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): RegistrosocioController->run()
+#15 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#16 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#17 /Applications/MAMP/htdocs/bolera/index.php(13): CWebApplication->run()
+REQUEST_URI=/bolera/index.php?r=registrosocio/view&id=3
+in /Applications/MAMP/htdocs/bolera/protected/views/site/buscarsalida.php (59)
+in /Applications/MAMP/htdocs/bolera/protected/controllers/RegistrosocioController.php (53)
+in /Applications/MAMP/htdocs/bolera/index.php (13)
+2014/03/13 23:18:58 [error] [php] mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given (/Applications/MAMP/htdocs/bolera/protected/views/site/buscarsalida.php:59)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): RegistrosocioController->renderInternal()
+#1 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): RegistrosocioController->renderFile()
+#2 /Applications/MAMP/htdocs/bolera/protected/controllers/RegistrosocioController.php(53): RegistrosocioController->renderPartial()
+#3 unknown(0): RegistrosocioController->actionView()
+#4 /Applications/MAMP/htdocs/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#5 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(133): RegistrosocioController->runAction()
+#8 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#9 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#10 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): RegistrosocioController->filterAccessControl()
+#11 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#12 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#13 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): RegistrosocioController->runActionWithFilters()
+#14 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): RegistrosocioController->run()
+#15 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#16 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#17 /Applications/MAMP/htdocs/bolera/index.php(13): CWebApplication->run()
+REQUEST_URI=/bolera/index.php?r=registrosocio/view&id=3
+in /Applications/MAMP/htdocs/bolera/protected/views/site/buscarsalida.php (59)
+in /Applications/MAMP/htdocs/bolera/protected/controllers/RegistrosocioController.php (53)
+in /Applications/MAMP/htdocs/bolera/index.php (13)
+2014/03/13 23:19:12 [error] [php] mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given (/Applications/MAMP/htdocs/bolera/protected/views/site/buscarsalida.php:59)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): RegistrosocioController->renderInternal()
+#1 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): RegistrosocioController->renderFile()
+#2 /Applications/MAMP/htdocs/bolera/protected/controllers/RegistrosocioController.php(53): RegistrosocioController->renderPartial()
+#3 unknown(0): RegistrosocioController->actionView()
+#4 /Applications/MAMP/htdocs/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#5 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(133): RegistrosocioController->runAction()
+#8 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#9 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#10 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): RegistrosocioController->filterAccessControl()
+#11 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#12 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#13 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): RegistrosocioController->runActionWithFilters()
+#14 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): RegistrosocioController->run()
+#15 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#16 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#17 /Applications/MAMP/htdocs/bolera/index.php(13): CWebApplication->run()
+REQUEST_URI=/bolera/index.php?r=registrosocio/view&id=3
+in /Applications/MAMP/htdocs/bolera/protected/views/site/buscarsalida.php (59)
+in /Applications/MAMP/htdocs/bolera/protected/controllers/RegistrosocioController.php (53)
+in /Applications/MAMP/htdocs/bolera/index.php (13)
+2014/03/13 23:19:15 [error] [php] mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given (/Applications/MAMP/htdocs/bolera/protected/views/site/buscarsalida.php:59)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): RegistrosocioController->renderInternal()
+#1 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): RegistrosocioController->renderFile()
+#2 /Applications/MAMP/htdocs/bolera/protected/controllers/RegistrosocioController.php(53): RegistrosocioController->renderPartial()
+#3 unknown(0): RegistrosocioController->actionView()
+#4 /Applications/MAMP/htdocs/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#5 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(133): RegistrosocioController->runAction()
+#8 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#9 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#10 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): RegistrosocioController->filterAccessControl()
+#11 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#12 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#13 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): RegistrosocioController->runActionWithFilters()
+#14 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): RegistrosocioController->run()
+#15 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#16 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#17 /Applications/MAMP/htdocs/bolera/index.php(13): CWebApplication->run()
+REQUEST_URI=/bolera/index.php?r=registrosocio/view&id=3
+in /Applications/MAMP/htdocs/bolera/protected/views/site/buscarsalida.php (59)
+in /Applications/MAMP/htdocs/bolera/protected/controllers/RegistrosocioController.php (53)
+in /Applications/MAMP/htdocs/bolera/index.php (13)
+2014/03/13 23:19:25 [error] [php] mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given (/Applications/MAMP/htdocs/bolera/protected/views/site/buscarsalida.php:59)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): RegistrosocioController->renderInternal()
+#1 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): RegistrosocioController->renderFile()
+#2 /Applications/MAMP/htdocs/bolera/protected/controllers/RegistrosocioController.php(53): RegistrosocioController->renderPartial()
+#3 unknown(0): RegistrosocioController->actionView()
+#4 /Applications/MAMP/htdocs/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#5 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(133): RegistrosocioController->runAction()
+#8 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#9 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#10 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): RegistrosocioController->filterAccessControl()
+#11 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#12 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#13 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): RegistrosocioController->runActionWithFilters()
+#14 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): RegistrosocioController->run()
+#15 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#16 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#17 /Applications/MAMP/htdocs/bolera/index.php(13): CWebApplication->run()
+REQUEST_URI=/bolera/index.php?r=registrosocio/view&id=1
+in /Applications/MAMP/htdocs/bolera/protected/views/site/buscarsalida.php (59)
+in /Applications/MAMP/htdocs/bolera/protected/controllers/RegistrosocioController.php (53)
+in /Applications/MAMP/htdocs/bolera/index.php (13)
+2014/03/13 23:19:34 [error] [php] mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given (/Applications/MAMP/htdocs/bolera/protected/views/site/buscarsalida.php:59)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): RegistrosocioController->renderInternal()
+#1 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): RegistrosocioController->renderFile()
+#2 /Applications/MAMP/htdocs/bolera/protected/controllers/RegistrosocioController.php(176): RegistrosocioController->renderPartial()
+#3 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): RegistrosocioController->actionIndex()
+#4 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(133): RegistrosocioController->runAction()
+#6 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): RegistrosocioController->filterAccessControl()
+#9 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): RegistrosocioController->runActionWithFilters()
+#12 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): RegistrosocioController->run()
+#13 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Applications/MAMP/htdocs/bolera/index.php(13): CWebApplication->run()
+REQUEST_URI=/bolera/index.php?r=registrosocio
+in /Applications/MAMP/htdocs/bolera/protected/views/site/buscarsalida.php (59)
+in /Applications/MAMP/htdocs/bolera/protected/controllers/RegistrosocioController.php (176)
+in /Applications/MAMP/htdocs/bolera/index.php (13)
+2014/03/13 23:21:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "sociogrupo/create"' in /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('sociogrupo/crea...')
+#1 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bolera/index.php?r=sociogrupo/create
+---
+2014/03/13 23:25:30 [error] [php] mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given (/Applications/MAMP/htdocs/bolera/protected/views/site/chicosdentro.php:23)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#1 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): SiteController->renderFile()
+#2 /Applications/MAMP/htdocs/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#3 /Applications/MAMP/htdocs/bolera/protected/controllers/SiteController.php(49): SiteController->render()
+#4 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionChicosdentro()
+#5 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /Applications/MAMP/htdocs/yii/framework/web/CController.php(286): SiteController->runAction()
+#7 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#8 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#9 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Applications/MAMP/htdocs/bolera/index.php(13): CWebApplication->run()
+REQUEST_URI=/bolera/index.php?r=site/chicosdentro
+in /Applications/MAMP/htdocs/bolera/protected/views/site/chicosdentro.php (23)
+in /Applications/MAMP/htdocs/bolera/protected/controllers/SiteController.php (49)
+in /Applications/MAMP/htdocs/bolera/index.php (13)
+2014/03/13 23:26:03 [error] [php] mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given (/Applications/MAMP/htdocs/bolera/protected/views/site/chicosdentro.php:23)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#1 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): SiteController->renderFile()
+#2 /Applications/MAMP/htdocs/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#3 /Applications/MAMP/htdocs/bolera/protected/controllers/SiteController.php(49): SiteController->render()
+#4 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionChicosdentro()
+#5 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /Applications/MAMP/htdocs/yii/framework/web/CController.php(286): SiteController->runAction()
+#7 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#8 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#9 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Applications/MAMP/htdocs/bolera/index.php(13): CWebApplication->run()
+REQUEST_URI=/bolera/index.php?r=site/chicosdentro
+in /Applications/MAMP/htdocs/bolera/protected/views/site/chicosdentro.php (23)
+in /Applications/MAMP/htdocs/bolera/protected/controllers/SiteController.php (49)
+in /Applications/MAMP/htdocs/bolera/index.php (13)
+2014/03/13 23:26:06 [error] [php] mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given (/Applications/MAMP/htdocs/bolera/protected/views/site/chicosdentro.php:23)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#1 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): SiteController->renderFile()
+#2 /Applications/MAMP/htdocs/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#3 /Applications/MAMP/htdocs/bolera/protected/controllers/SiteController.php(49): SiteController->render()
+#4 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionChicosdentro()
+#5 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /Applications/MAMP/htdocs/yii/framework/web/CController.php(286): SiteController->runAction()
+#7 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#8 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#9 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Applications/MAMP/htdocs/bolera/index.php(13): CWebApplication->run()
+REQUEST_URI=/bolera/index.php?r=site/chicosdentro
+in /Applications/MAMP/htdocs/bolera/protected/views/site/chicosdentro.php (23)
+in /Applications/MAMP/htdocs/bolera/protected/controllers/SiteController.php (49)
+in /Applications/MAMP/htdocs/bolera/index.php (13)
+2014/03/13 23:42:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /Applications/MAMP/htdocs/bolera/protected/controllers/GruposocioController.php:180
+Stack trace:
+#0 /Applications/MAMP/htdocs/bolera/protected/controllers/GruposocioController.php(54): GruposocioController->loadModel('')
+#1 [internal function]: GruposocioController->actionView('')
+#2 /Applications/MAMP/htdocs/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(GruposocioController), Array)
+#3 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(GruposocioController), Object(ReflectionMethod), Array)
+#4 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#13 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gruposocio/view')
+#14 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/bolera/index.php?r=gruposocio/view&id=
+HTTP_REFERER=http://localhost:8888/bolera/index.php
+---
+2014/03/13 23:42:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /Applications/MAMP/htdocs/bolera/protected/controllers/GruposocioController.php:180
+Stack trace:
+#0 /Applications/MAMP/htdocs/bolera/protected/controllers/GruposocioController.php(54): GruposocioController->loadModel('')
+#1 [internal function]: GruposocioController->actionView('')
+#2 /Applications/MAMP/htdocs/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(GruposocioController), Array)
+#3 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(GruposocioController), Object(ReflectionMethod), Array)
+#4 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#13 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gruposocio/view')
+#14 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/bolera/index.php?r=gruposocio/view&id=
+HTTP_REFERER=http://localhost:8888/bolera/index.php
+---
+2014/03/13 23:57:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /Applications/MAMP/htdocs/bolera/protected/controllers/GruposocioController.php:180
+Stack trace:
+#0 /Applications/MAMP/htdocs/bolera/protected/controllers/GruposocioController.php(54): GruposocioController->loadModel('3')
+#1 [internal function]: GruposocioController->actionView('3')
+#2 /Applications/MAMP/htdocs/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(GruposocioController), Array)
+#3 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(GruposocioController), Object(ReflectionMethod), Array)
+#4 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#13 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gruposocio/view')
+#14 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/bolera/index.php?r=gruposocio/view&id=3
+---
+2014/03/13 23:58:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /Applications/MAMP/htdocs/bolera/protected/controllers/GruposocioController.php:180
+Stack trace:
+#0 /Applications/MAMP/htdocs/bolera/protected/controllers/GruposocioController.php(54): GruposocioController->loadModel('4')
+#1 [internal function]: GruposocioController->actionView('4')
+#2 /Applications/MAMP/htdocs/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(GruposocioController), Array)
+#3 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(GruposocioController), Object(ReflectionMethod), Array)
+#4 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#13 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gruposocio/view')
+#14 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/bolera/index.php?r=gruposocio/view&id=4
+---
+2014/03/17 19:09:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "http:/localhost:8888/wordpress"' in /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('http:/localhost...')
+#1 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bolera/index.php?r=http:/localhost:8888/wordpress
+HTTP_REFERER=http://localhost:8888/bolera/index.php
+---
+2014/03/18 07:44:38 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Usted no se encuentra autorizado a realizar esta acción.' in /Applications/MAMP/htdocs/yii/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'Usted no se enc...')
+#1 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('hoy')
+#8 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('reservas/hoy')
+#9 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/bolera/index.php?r=reservas/hoy
+---
+2014/04/01 16:18:52 [error] [php] Undefined variable: model (/Applications/MAMP/htdocs/bolera/protected/views/site/mostrar.php:6)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): SiteController->renderFile()
+#1 /Applications/MAMP/htdocs/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /Applications/MAMP/htdocs/bolera/protected/controllers/SiteController.php(33): SiteController->render()
+#3 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionMostrar()
+#4 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/yii/framework/web/CController.php(286): SiteController->runAction()
+#6 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/bolera/index.php(13): CWebApplication->run()
+REQUEST_URI=/bolera/index.php?r=site/mostrar
+in /Applications/MAMP/htdocs/bolera/protected/views/site/mostrar.php (6)
+in /Applications/MAMP/htdocs/bolera/protected/controllers/SiteController.php (33)
+in /Applications/MAMP/htdocs/bolera/index.php (13)
+2014/04/01 16:19:55 [error] [exception.CException] exception 'CException' with message 'SiteController no ha podido encontrar la vista "_search" solicitada.' in /Applications/MAMP/htdocs/yii/framework/web/CController.php:878
+Stack trace:
+#0 /Applications/MAMP/htdocs/bolera/protected/views/site/mostrar.php(11): CController->renderPartial('_search', Array)
+#1 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/M...', NULL, true)
+#3 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/M...', NULL, true)
+#4 /Applications/MAMP/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('mostrar', NULL, true)
+#5 /Applications/MAMP/htdocs/bolera/protected/controllers/SiteController.php(33): CController->render('mostrar')
+#6 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionMostrar()
+#7 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /Applications/MAMP/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('mostrar')
+#11 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/mostrar')
+#12 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/bolera/index.php?r=site/mostrar
+HTTP_REFERER=http://localhost:8888/bolera/index.php?r=site/index
+---
+2014/04/01 16:20:40 [error] [exception.CException] exception 'CException' with message 'SiteController no ha podido encontrar la vista "registro/_search" solicitada.' in /Applications/MAMP/htdocs/yii/framework/web/CController.php:878
+Stack trace:
+#0 /Applications/MAMP/htdocs/bolera/protected/views/site/mostrar.php(11): CController->renderPartial('registro/_searc...', Array)
+#1 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/M...', NULL, true)
+#3 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/M...', NULL, true)
+#4 /Applications/MAMP/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('mostrar', NULL, true)
+#5 /Applications/MAMP/htdocs/bolera/protected/controllers/SiteController.php(33): CController->render('mostrar')
+#6 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionMostrar()
+#7 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /Applications/MAMP/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('mostrar')
+#11 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/mostrar')
+#12 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/bolera/index.php?r=site/mostrar
+HTTP_REFERER=http://localhost:8888/bolera/index.php?r=site/index
+---
+2014/04/01 16:27:05 [error] [php] Undefined variable: model (/Applications/MAMP/htdocs/bolera/protected/views/site/mostrar.php:13)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): SiteController->renderFile()
+#1 /Applications/MAMP/htdocs/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /Applications/MAMP/htdocs/bolera/protected/controllers/SiteController.php(33): SiteController->render()
+#3 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionMostrar()
+#4 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/yii/framework/web/CController.php(286): SiteController->runAction()
+#6 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/bolera/index.php(13): CWebApplication->run()
+REQUEST_URI=/bolera/index.php?r=site/mostrar
+in /Applications/MAMP/htdocs/bolera/protected/views/site/mostrar.php (13)
+in /Applications/MAMP/htdocs/bolera/protected/controllers/SiteController.php (33)
+in /Applications/MAMP/htdocs/bolera/index.php (13)
+2014/04/01 16:29:38 [error] [exception.CException] exception 'CException' with message 'SiteController no ha podido encontrar la vista "_search" solicitada.' in /Applications/MAMP/htdocs/yii/framework/web/CController.php:878
+Stack trace:
+#0 /Applications/MAMP/htdocs/bolera/protected/views/site/mostrar.php(11): CController->renderPartial('_search', Array)
+#1 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/M...')
+#2 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/M...', NULL, true)
+#3 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/M...', NULL, true)
+#4 /Applications/MAMP/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('mostrar', NULL, true)
+#5 /Applications/MAMP/htdocs/bolera/protected/controllers/SiteController.php(33): CController->render('mostrar')
+#6 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionMostrar()
+#7 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /Applications/MAMP/htdocs/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('mostrar')
+#11 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/mostrar')
+#12 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/bolera/index.php?r=site/mostrar
+HTTP_REFERER=http://localhost:8888/bolera/index.php?r=site/index
+---
+2014/04/01 16:56:49 [error] [php] mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given (/Applications/MAMP/htdocs/bolera/protected/views/site/mostrar.php:28)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#1 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): SiteController->renderFile()
+#2 /Applications/MAMP/htdocs/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#3 /Applications/MAMP/htdocs/bolera/protected/controllers/SiteController.php(33): SiteController->render()
+#4 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionMostrar()
+#5 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /Applications/MAMP/htdocs/yii/framework/web/CController.php(286): SiteController->runAction()
+#7 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#8 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#9 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Applications/MAMP/htdocs/bolera/index.php(13): CWebApplication->run()
+REQUEST_URI=/bolera/index.php?r=site/mostrar
+in /Applications/MAMP/htdocs/bolera/protected/views/site/mostrar.php (28)
+in /Applications/MAMP/htdocs/bolera/protected/controllers/SiteController.php (33)
+in /Applications/MAMP/htdocs/bolera/index.php (13)
+2014/04/01 16:57:28 [error] [php] mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given (/Applications/MAMP/htdocs/bolera/protected/views/site/mostrar.php:28)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#1 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): SiteController->renderFile()
+#2 /Applications/MAMP/htdocs/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#3 /Applications/MAMP/htdocs/bolera/protected/controllers/SiteController.php(33): SiteController->render()
+#4 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionMostrar()
+#5 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /Applications/MAMP/htdocs/yii/framework/web/CController.php(286): SiteController->runAction()
+#7 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#8 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#9 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Applications/MAMP/htdocs/bolera/index.php(13): CWebApplication->run()
+REQUEST_URI=/bolera/index.php?r=site/mostrar
+in /Applications/MAMP/htdocs/bolera/protected/views/site/mostrar.php (28)
+in /Applications/MAMP/htdocs/bolera/protected/controllers/SiteController.php (33)
+in /Applications/MAMP/htdocs/bolera/index.php (13)
+2014/04/01 16:57:48 [error] [php] mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given (/Applications/MAMP/htdocs/bolera/protected/views/site/mostrar.php:28)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#1 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): SiteController->renderFile()
+#2 /Applications/MAMP/htdocs/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#3 /Applications/MAMP/htdocs/bolera/protected/controllers/SiteController.php(33): SiteController->render()
+#4 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionMostrar()
+#5 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /Applications/MAMP/htdocs/yii/framework/web/CController.php(286): SiteController->runAction()
+#7 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#8 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#9 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Applications/MAMP/htdocs/bolera/index.php(13): CWebApplication->run()
+REQUEST_URI=/bolera/index.php?r=site/mostrar
+in /Applications/MAMP/htdocs/bolera/protected/views/site/mostrar.php (28)
+in /Applications/MAMP/htdocs/bolera/protected/controllers/SiteController.php (33)
+in /Applications/MAMP/htdocs/bolera/index.php (13)
+2014/04/01 16:57:51 [error] [php] mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given (/Applications/MAMP/htdocs/bolera/protected/views/site/mostrar.php:28)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#1 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): SiteController->renderFile()
+#2 /Applications/MAMP/htdocs/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#3 /Applications/MAMP/htdocs/bolera/protected/controllers/SiteController.php(33): SiteController->render()
+#4 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionMostrar()
+#5 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /Applications/MAMP/htdocs/yii/framework/web/CController.php(286): SiteController->runAction()
+#7 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#8 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#9 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Applications/MAMP/htdocs/bolera/index.php(13): CWebApplication->run()
+REQUEST_URI=/bolera/index.php?r=site/mostrar
+in /Applications/MAMP/htdocs/bolera/protected/views/site/mostrar.php (28)
+in /Applications/MAMP/htdocs/bolera/protected/controllers/SiteController.php (33)
+in /Applications/MAMP/htdocs/bolera/index.php (13)
+2014/04/01 16:58:19 [error] [php] mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given (/Applications/MAMP/htdocs/bolera/protected/views/site/mostrar.php:28)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#1 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): SiteController->renderFile()
+#2 /Applications/MAMP/htdocs/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#3 /Applications/MAMP/htdocs/bolera/protected/controllers/SiteController.php(33): SiteController->render()
+#4 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionMostrar()
+#5 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /Applications/MAMP/htdocs/yii/framework/web/CController.php(286): SiteController->runAction()
+#7 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#8 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#9 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Applications/MAMP/htdocs/bolera/index.php(13): CWebApplication->run()
+REQUEST_URI=/bolera/index.php?r=site/mostrar
+in /Applications/MAMP/htdocs/bolera/protected/views/site/mostrar.php (28)
+in /Applications/MAMP/htdocs/bolera/protected/controllers/SiteController.php (33)
+in /Applications/MAMP/htdocs/bolera/index.php (13)
+2014/04/01 17:01:14 [error] [php] mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given (/Applications/MAMP/htdocs/bolera/protected/views/site/mostrar.php:28)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#1 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): SiteController->renderFile()
+#2 /Applications/MAMP/htdocs/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#3 /Applications/MAMP/htdocs/bolera/protected/controllers/SiteController.php(33): SiteController->render()
+#4 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionMostrar()
+#5 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /Applications/MAMP/htdocs/yii/framework/web/CController.php(286): SiteController->runAction()
+#7 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#8 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#9 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Applications/MAMP/htdocs/bolera/index.php(13): CWebApplication->run()
+REQUEST_URI=/bolera/index.php?r=site/mostrar
+in /Applications/MAMP/htdocs/bolera/protected/views/site/mostrar.php (28)
+in /Applications/MAMP/htdocs/bolera/protected/controllers/SiteController.php (33)
+in /Applications/MAMP/htdocs/bolera/index.php (13)
+2014/04/01 17:01:16 [error] [php] mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given (/Applications/MAMP/htdocs/bolera/protected/views/site/mostrar.php:28)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#1 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): SiteController->renderFile()
+#2 /Applications/MAMP/htdocs/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#3 /Applications/MAMP/htdocs/bolera/protected/controllers/SiteController.php(33): SiteController->render()
+#4 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionMostrar()
+#5 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /Applications/MAMP/htdocs/yii/framework/web/CController.php(286): SiteController->runAction()
+#7 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#8 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#9 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Applications/MAMP/htdocs/bolera/index.php(13): CWebApplication->run()
+REQUEST_URI=/bolera/index.php?r=site/mostrar
+in /Applications/MAMP/htdocs/bolera/protected/views/site/mostrar.php (28)
+in /Applications/MAMP/htdocs/bolera/protected/controllers/SiteController.php (33)
+in /Applications/MAMP/htdocs/bolera/index.php (13)
+2014/04/01 17:16:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /Applications/MAMP/htdocs/bolera/protected/controllers/GruposocioController.php:185
+Stack trace:
+#0 /Applications/MAMP/htdocs/bolera/protected/controllers/GruposocioController.php(55): GruposocioController->loadModel('')
+#1 [internal function]: GruposocioController->actionView('')
+#2 /Applications/MAMP/htdocs/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(GruposocioController), Array)
+#3 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(GruposocioController), Object(ReflectionMethod), Array)
+#4 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#13 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gruposocio/view')
+#14 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/bolera/index.php?r=gruposocio/view&id=
+---
+2014/04/01 17:52:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /Applications/MAMP/htdocs/bolera/protected/controllers/GrupoController.php:193
+Stack trace:
+#0 /Applications/MAMP/htdocs/bolera/protected/controllers/GrupoController.php(55): GrupoController->loadModel('')
+#1 [internal function]: GrupoController->actionView('')
+#2 /Applications/MAMP/htdocs/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(GrupoController), Array)
+#3 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(GrupoController), Object(ReflectionMethod), Array)
+#4 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#13 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('grupo/view')
+#14 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/bolera/index.php?r=grupo/view&id=
+---
+2014/04/03 00:17:03 [error] [php] mysqli_free_result(): Couldn't fetch mysqli_result (/Applications/MAMP/htdocs/bolera/protected/views/site/cierre.php:145)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): SiteController->renderInternal()
+#1 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): SiteController->renderFile()
+#2 /Applications/MAMP/htdocs/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#3 /Applications/MAMP/htdocs/bolera/protected/controllers/SiteController.php(30): SiteController->render()
+#4 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionCierre()
+#5 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /Applications/MAMP/htdocs/yii/framework/web/CController.php(286): SiteController->runAction()
+#7 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#8 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#9 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /Applications/MAMP/htdocs/bolera/index.php(13): CWebApplication->run()
+REQUEST_URI=/bolera/index.php?r=site/cierre
+in /Applications/MAMP/htdocs/bolera/protected/views/site/cierre.php (145)
+in /Applications/MAMP/htdocs/bolera/protected/controllers/SiteController.php (30)
+in /Applications/MAMP/htdocs/bolera/index.php (13)
+2014/04/03 02:25:15 [error] [php] Undefined index: fecha (/Applications/MAMP/htdocs/bolera/protected/views/site/existe.php:3)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): SiteController->renderFile()
+#1 /Applications/MAMP/htdocs/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /Applications/MAMP/htdocs/bolera/protected/controllers/SiteController.php(30): SiteController->render()
+#3 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionExiste()
+#4 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /Applications/MAMP/htdocs/yii/framework/web/CController.php(286): SiteController->runAction()
+#6 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/bolera/index.php(13): CWebApplication->run()
+REQUEST_URI=/bolera/index.php?r=site/existe
+in /Applications/MAMP/htdocs/bolera/protected/views/site/existe.php (3)
+in /Applications/MAMP/htdocs/bolera/protected/controllers/SiteController.php (30)
+in /Applications/MAMP/htdocs/bolera/index.php (13)
+2014/04/03 03:24:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "hoy" solicitada.' in /Applications/MAMP/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CController.php(270): CController->missingAction('hoy')
+#1 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('hoy')
+#2 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('reservas/hoy')
+#3 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/bolera/index.php?r=reservas/hoy
+HTTP_REFERER=http://localhost:8888/bolera/index.php?r=reservas/create
+---
+2014/04/03 03:24:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "hoy" solicitada.' in /Applications/MAMP/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CController.php(270): CController->missingAction('hoy')
+#1 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('hoy')
+#2 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('reservas/hoy')
+#3 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/bolera/index.php?r=reservas/hoy
+HTTP_REFERER=http://localhost:8888/bolera/index.php?r=reservas/create
+---
+2014/04/03 03:24:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "hoy" solicitada.' in /Applications/MAMP/htdocs/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CController.php(270): CController->missingAction('hoy')
+#1 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('hoy')
+#2 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('reservas/hoy')
+#3 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/bolera/index.php?r=reservas/hoy
+---
+2014/04/03 03:29:43 [error] [php] Undefined variable: model (/Applications/MAMP/htdocs/bolera/protected/controllers/ReservasController.php:52)
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(133): ReservasController->runAction()
+#1 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#2 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#3 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): ReservasController->filterAccessControl()
+#4 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#5 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): ReservasController->runActionWithFilters()
+#7 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): ReservasController->run()
+#8 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/MAMP/htdocs/bolera/index.php(13): CWebApplication->run()
+REQUEST_URI=/bolera/index.php?r=reservas/hoy
+in /Applications/MAMP/htdocs/bolera/protected/controllers/ReservasController.php (52)
+in /Applications/MAMP/htdocs/bolera/index.php (13)
+2014/04/03 03:41:40 [error] [exception.CException] exception 'CException' with message 'El alias "bootstrap.widgets.TbTimePicker" es inválido. Asegúrese de que apunta a un archivo PHP existente y que el archivo tiene permisos de lectura.' in /Applications/MAMP/htdocs/yii/framework/YiiBase.php:322
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CWidgetFactory.php(146): YiiBase::import('bootstrap.widge...', true)
+#1 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(ReservasController), 'bootstrap.widge...', Array)
+#2 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 /Applications/MAMP/htdocs/bolera/protected/views/reservas/_form.php(30): CBaseController->widget('bootstrap.widge...', Array)
+#4 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/M...')
+#5 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/M...', Array, true)
+#6 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/M...', Array, true)
+#7 /Applications/MAMP/htdocs/bolera/protected/views/reservas/create.php(15): CController->renderPartial('_form', Array)
+#8 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/M...')
+#9 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/M...', Array, true)
+#10 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/M...', Array, true)
+#11 /Applications/MAMP/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#12 /Applications/MAMP/htdocs/bolera/protected/controllers/ReservasController.php(79): CController->render('create', Array)
+#13 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): ReservasController->actionCreate()
+#14 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#15 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#17 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#21 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#23 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('reservas/create')
+#24 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#25 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/bolera/index.php?r=reservas/create
+HTTP_REFERER=http://localhost:8888/bolera/index.php?r=reservas/admin
+---
+2014/04/03 03:55:02 [error] [php] Missing argument 1 for CActiveRecord::getAttribute(), called in /Applications/MAMP/htdocs/yii/framework/base/CComponent.php on line 111 and defined (/Applications/MAMP/htdocs/yii/framework/db/ar/CActiveRecord.php:691)
+Stack trace:
+#0 /Applications/MAMP/htdocs/bolera/protected/extensions/timepicker/views/default.php(1): Reservas->__get()
+#1 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(130): require()
+#2 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): timepicker->renderInternal()
+#3 /Applications/MAMP/htdocs/yii/framework/web/widgets/CWidget.php(244): timepicker->renderFile()
+#4 /Applications/MAMP/htdocs/bolera/protected/extensions/timepicker/timepicker.php(60): timepicker->render()
+#5 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(173): timepicker->run()
+#6 /Applications/MAMP/htdocs/bolera/protected/views/reservas/_form.php(27): ReservasController->widget()
+#7 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(126): require()
+#8 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): ReservasController->renderInternal()
+#9 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): ReservasController->renderFile()
+#10 /Applications/MAMP/htdocs/bolera/protected/views/reservas/create.php(15): ReservasController->renderPartial()
+#11 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(126): require()
+#12 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): ReservasController->renderInternal()
+#13 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): ReservasController->renderFile()
+#14 /Applications/MAMP/htdocs/yii/framework/web/CController.php(782): ReservasController->renderPartial()
+#15 /Applications/MAMP/htdocs/bolera/protected/controllers/ReservasController.php(79): ReservasController->render()
+#16 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): ReservasController->actionCreate()
+#17 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#18 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(133): ReservasController->runAction()
+#19 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#20 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#21 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): ReservasController->filterAccessControl()
+#22 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#23 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#24 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): ReservasController->runActionWithFilters()
+#25 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): ReservasController->run()
+#26 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#27 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#28 /Applications/MAMP/htdocs/bolera/index.php(13): CWebApplication->run()
+REQUEST_URI=/bolera/index.php?r=reservas/create
+in /Applications/MAMP/htdocs/bolera/protected/extensions/timepicker/views/default.php (1)
+in /Applications/MAMP/htdocs/bolera/protected/extensions/timepicker/timepicker.php (60)
+in /Applications/MAMP/htdocs/bolera/protected/views/reservas/_form.php (27)
+2014/04/03 03:55:08 [error] [php] Missing argument 1 for CActiveRecord::getAttribute(), called in /Applications/MAMP/htdocs/yii/framework/base/CComponent.php on line 111 and defined (/Applications/MAMP/htdocs/yii/framework/db/ar/CActiveRecord.php:691)
+Stack trace:
+#0 /Applications/MAMP/htdocs/bolera/protected/extensions/timepicker/views/default.php(1): Reservas->__get()
+#1 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(130): require()
+#2 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): timepicker->renderInternal()
+#3 /Applications/MAMP/htdocs/yii/framework/web/widgets/CWidget.php(244): timepicker->renderFile()
+#4 /Applications/MAMP/htdocs/bolera/protected/extensions/timepicker/timepicker.php(60): timepicker->render()
+#5 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(173): timepicker->run()
+#6 /Applications/MAMP/htdocs/bolera/protected/views/reservas/_form.php(27): ReservasController->widget()
+#7 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(126): require()
+#8 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): ReservasController->renderInternal()
+#9 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): ReservasController->renderFile()
+#10 /Applications/MAMP/htdocs/bolera/protected/views/reservas/create.php(15): ReservasController->renderPartial()
+#11 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(126): require()
+#12 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): ReservasController->renderInternal()
+#13 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): ReservasController->renderFile()
+#14 /Applications/MAMP/htdocs/yii/framework/web/CController.php(782): ReservasController->renderPartial()
+#15 /Applications/MAMP/htdocs/bolera/protected/controllers/ReservasController.php(79): ReservasController->render()
+#16 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): ReservasController->actionCreate()
+#17 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#18 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(133): ReservasController->runAction()
+#19 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#20 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#21 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): ReservasController->filterAccessControl()
+#22 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#23 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#24 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): ReservasController->runActionWithFilters()
+#25 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): ReservasController->run()
+#26 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#27 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#28 /Applications/MAMP/htdocs/bolera/index.php(13): CWebApplication->run()
+REQUEST_URI=/bolera/index.php?r=reservas/create
+in /Applications/MAMP/htdocs/bolera/protected/extensions/timepicker/views/default.php (1)
+in /Applications/MAMP/htdocs/bolera/protected/extensions/timepicker/timepicker.php (60)
+in /Applications/MAMP/htdocs/bolera/protected/views/reservas/_form.php (27)
+2014/04/03 04:01:00 [error] [exception.CException] exception 'CException' with message 'La propiedad "timepicker"."timeOnly" no se encuentra definida.' in /Applications/MAMP/htdocs/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CWidgetFactory.php(161): CComponent->__set('timeOnly', true)
+#1 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(ReservasController), 'ext.timepicker....', Array)
+#2 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('ext.timepicker....', Array)
+#3 /Applications/MAMP/htdocs/bolera/protected/views/reservas/_form.php(20): CBaseController->widget('ext.timepicker....', Array)
+#4 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/M...')
+#5 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/M...', Array, true)
+#6 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/M...', Array, true)
+#7 /Applications/MAMP/htdocs/bolera/protected/views/reservas/create.php(15): CController->renderPartial('_form', Array)
+#8 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(126): require('/Applications/M...')
+#9 /Applications/MAMP/htdocs/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/Applications/M...', Array, true)
+#10 /Applications/MAMP/htdocs/yii/framework/web/CController.php(869): CBaseController->renderFile('/Applications/M...', Array, true)
+#11 /Applications/MAMP/htdocs/yii/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#12 /Applications/MAMP/htdocs/bolera/protected/controllers/ReservasController.php(79): CController->render('create', Array)
+#13 /Applications/MAMP/htdocs/yii/framework/web/actions/CInlineAction.php(49): ReservasController->actionCreate()
+#14 /Applications/MAMP/htdocs/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#15 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#17 /Applications/MAMP/htdocs/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 /Applications/MAMP/htdocs/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 /Applications/MAMP/htdocs/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 /Applications/MAMP/htdocs/yii/framework/web/CController.php(291): CFilterChain->run()
+#21 /Applications/MAMP/htdocs/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#23 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('reservas/create')
+#24 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#25 /Applications/MAMP/htdocs/bolera/index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/bolera/index.php?r=reservas/create
+HTTP_REFERER=http://localhost:8888/bolera/index.php?r=reservas/admin
+---

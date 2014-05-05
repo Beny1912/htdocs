@@ -1,0 +1,17 @@
+2014/02/22 04:58:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "peques/create".' in /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/parque/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parque/index.php
+---
+2014/02/22 04:58:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "peques/create".' in /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/MAMP/htdocs/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /Applications/MAMP/htdocs/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/MAMP/htdocs/parque/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parque/index.php
+HTTP_REFERER=http://localhost:8888/parque/index.php
+---

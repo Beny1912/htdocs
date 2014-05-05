@@ -1,0 +1,68 @@
+<?php
+
+$_TABS = array();
+
+$_TABS['AdminDashboard'] = 'Tauler d\'instruments';
+$_TABS['AdminCatalog'] = 'Catàleg';
+$_TABS['AdminParentOrders'] = 'Ordres';
+$_TABS['AdminParentCustomer'] = 'clients';
+$_TABS['AdminParentModules'] = 'mòduls';
+$_TABS['AdminParentShipping'] = 'Entrega';
+$_TABS['AdminParentLocalization'] = 'Localització';
+$_TABS['AdminAdmin'] = 'Administració';
+$_TABS['AdminParentStats'] = 'Estadístiques';
+$_TABS['AdminStock'] = 'Estoc';
+$_TABS['AdminPerformance'] = 'Rendiment';
+$_TABS['AdminEmails'] = 'Correu electrònic';
+$_TABS['AdminShopGroup'] = 'Multibotiga';
+$_TABS['AdminQuickAccesses'] = 'Accés ràpid';
+$_TABS['AdminEmployees'] = 'Empleats';
+$_TABS['AdminAccess'] = 'Permisos';
+$_TABS['AdminTabs'] = 'Menús';
+$_TABS['AdminGamification'] = 'Experiència com a venedors';
+$_TABS['AdminOrderPreferences'] = 'Ordres';
+$_TABS['AdminPPreferences'] = 'Articles';
+$_TABS['AdminCustomerPreferences'] = 'clients';
+$_TABS['AdminImages'] = 'Imàtges';
+$_TABS['AdminSearchConf'] = 'Cercar';
+$_TABS['AdminMaintenance'] = 'Manteniment';
+$_TABS['AdminOrders'] = 'Ordres';
+$_TABS['AdminInvoices'] = 'Factures';
+$_TABS['AdminStatuses'] = 'Estats';
+$_TABS['AdminModules'] = 'mòduls';
+$_TABS['AdminAddonsCatalog'] = 'Catàleg de Mòduls i Temes';
+$_TABS['AdminModulesPositions'] = 'Posicions';
+$_TABS['AdminPayment'] = 'Pagament:';
+$_TABS['AdminStats'] = 'Estadístiques';
+$_TABS['AdminReferrers'] = 'Referits';
+$_TABS['AdminCustomers'] = 'clients';
+$_TABS['AdminAddresses'] = 'Adreces';
+$_TABS['AdminGroups'] = 'Grups';
+$_TABS['AdminContacts'] = 'Contactes';
+$_TABS['AdminGenders'] = 'Títols';
+$_TABS['AdminProducts'] = 'Articles';
+$_TABS['AdminCategories'] = 'Categories:';
+$_TABS['AdminManufacturers'] = 'Fabricants';
+$_TABS['AdminSuppliers'] = 'Proveidors';
+$_TABS['AdminTags'] = 'Etiquetes';
+$_TABS['AdminAttachments'] = 'Adjunts';
+$_TABS['AdminSearch'] = 'Cercar';
+$_TABS['AdminLogin'] = 'Inici de sessió';
+$_TABS['AdminShop'] = 'Botigues';
+$_TABS['AdminWarehouses'] = 'Magatzems';
+$_TABS['AdminStockConfiguration'] = 'Configuració';
+$_TABS['AdminLocalization'] = 'Localització';
+$_TABS['AdminLanguages'] = 'Llengües';
+$_TABS['AdminCountries'] = 'Països';
+$_TABS['AdminStates'] = 'Provincies';
+$_TABS['AdminCurrencies'] = 'Monedes';
+$_TABS['AdminTaxes'] = 'Impostos';
+$_TABS['AdminTaxRulesGroup'] = 'Regles d\'impostos';
+$_TABS['AdminTranslations'] = 'Traduccions';
+$_TABS['AdminCartRules'] = 'Regles del carret';
+$_TABS['AdminMarketing'] = 'Màrqueting';
+$_TABS['AdminCarriers'] = 'Transportistes';
+$_TABS['AdminCarrierWizard'] = 'Transportista';
+
+
+return $_TABS;

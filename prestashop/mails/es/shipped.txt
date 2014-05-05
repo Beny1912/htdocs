@@ -1,0 +1,18 @@
+
+[{shop_url}] 
+
+Hola {firstname} {lastname},
+
+Le agradecemos por realizar sus compras en {shop_name}! 
+
+Your order with the reference {order_name} has been shipped.
+
+En caso haber elegido correo expreso, pronto recibirá un enlace para
+realizar el seguimiento del envío de su paquete. 		 
+
+Ahora podrá realizar pedidos en nuestra tienda: {shop_name}
+[{shop_url}] 
+
+{shop_name} [{shop_url}] powered by
+PrestaShop(tm) [http://www.prestashop.com/] 
+

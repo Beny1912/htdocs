@@ -1,0 +1,124 @@
+-- phpMyAdmin SQL Dump
+-- version 4.0.6
+-- http://www.phpmyadmin.net
+--
+-- Host: localhost
+-- Generation Time: Apr 03, 2014 at 04:23 AM
+-- Server version: 5.5.33
+-- PHP Version: 5.5.3
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+--
+-- Database: `bolera`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `chico`
+--
+
+CREATE TABLE `chico` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
+  `apellido` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
+  `cumple` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `padres` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `telefono` int(9) DEFAULT NULL,
+  `grupo_id` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+
+
+CREATE TABLE `cierre` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `fecha` date NOT NULL,
+  `hora` datetime NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `fecha` (`fecha`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+
+
+CREATE TABLE `grupo` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `alias` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+
+
+CREATE TABLE `gruposocio` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `alias` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci ;
+
+
+CREATE TABLE `registro` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `entrada` datetime NOT NULL,
+  `tiempo` int(11) NOT NULL,
+  `salida` datetime NOT NULL,
+  `etiqueta` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `tarifa` float NOT NULL,
+  `hoy` date NOT NULL,
+  `alias_grupo` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `grupo_id` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci ;
+
+
+
+CREATE TABLE `registrosocio` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `entrada` datetime NOT NULL,
+  `tiempo` int(11) NOT NULL,
+  `salida` datetime NOT NULL,
+  `etiqueta` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `tarifa` float NOT NULL,
+  `hoy` date NOT NULL,
+  `grupo_id` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci ;
+
+
+
+CREATE TABLE `reservas` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
+  `dia` date NOT NULL,
+  `hora` time DEFAULT NULL,
+  `tiempo` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `personas` int(11) NOT NULL,
+  `telefono` int(9) NOT NULL,
+  `invitados` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci ;
+
+
+
+CREATE TABLE `socio` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
+  `apellido` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
+  `cumple` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `padres` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `telefono` int(9) DEFAULT NULL,
+  `numero_socio` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci ;
+
+
+
+
+CREATE TABLE `socioG` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `numero_socio` int(11) NOT NULL,
+  `grupo_id` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci ;
+

@@ -1,0 +1,13 @@
+
+[{shop_url}] 
+
+Hi {name},
+
+Gràcies per haver creat un compte de client a {shop_name}. 
+
+Click here to view this item: {product}
+[{product_link}] 
+
+{shop_name} [{shop_url}] powered by
+PrestaShop(tm) [http://www.prestashop.com/] 
+
