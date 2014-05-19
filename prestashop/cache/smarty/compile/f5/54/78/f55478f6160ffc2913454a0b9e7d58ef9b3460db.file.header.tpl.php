@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.14, created on 2014-02-28 03:48:11
+<?php /* Smarty version Smarty-3.1.14, created on 2014-05-15 07:23:58
          compiled from "/Applications/MAMP/htdocs/prestashop/themes/default-bootstrap/header.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1673750335530ff8eb722609-90408314%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'f55478f6160ffc2913454a0b9e7d58ef9b3460db' => 
     array (
       0 => '/Applications/MAMP/htdocs/prestashop/themes/default-bootstrap/header.tpl',
-      1 => 1391446186,
+      1 => 1400131435,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.14',
+  'unifunc' => 'content_530ff8eb84ec89_22258543',
   'variables' => 
   array (
     'lang_iso' => 0,
@@ -47,8 +49,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'right_column_size' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_530ff8eb84ec89_22258543',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_530ff8eb84ec89_22258543')) {function content_530ff8eb84ec89_22258543($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_escape')) include '/Applications/MAMP/htdocs/prestashop/tools/smarty/plugins/modifier.escape.php';
 if (!is_callable('smarty_function_implode')) include '/Applications/MAMP/htdocs/prestashop/tools/smarty/plugins/function.implode.php';
@@ -122,7 +122,7 @@ $_smarty_tpl->tpl_vars['media']->_loop = true;
 		<?php }?>
 		<div id="page">
 			<div class="header-container">
-				<header id="header">
+				<header id="header" style="background-image: url('http://4.bp.blogspot.com/-furh5ftHxic/T3s6-6lgfFI/AAAAAAAAAWw/HcU4uhY8On4/s1600/cannabis_wallpaper_z3ctx1.jpg');-webkit-background-size: 100% 100%;-moz-background-size: 100% 100%;-o-background-size: 100% 100%;background-size: 100% 100%;-moz-border-image: url(bg-image.png) 0;">
 					<div class="banner">
 						<div class="container">
 							<div class="row">

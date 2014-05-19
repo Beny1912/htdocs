@@ -1,0 +1,139 @@
+/* Color CSS File */
+/* Default Theme Color Class */
+.color {
+  color: #609cec !important;
+}
+.br-color {
+  background: #609cec !important;
+}
+/* Theme Default Button */
+.btn-theme {
+  background: #609cec;
+}
+.btn-theme:hover {
+  background: #528fe2;
+}
+/* Border */
+.bor {
+  background: #609cec;
+}
+/* Navigation Menu */
+.header .navbar .navbar-brand > h1 > i {
+  color: #609cec;
+}
+.header .navbar .navbar-nav > li > a:hover {
+  background: #609cec !important;
+}
+.header .navbar .navbar-nav > li > a:focus {
+  background: #609cec !important;
+}
+.header .navbar .navbar-nav > li.active > a {
+  background: #609cec !important;
+}
+.header .navbar .navbar-toggle {
+  background: #609cec;
+}
+/* Default Heading */
+.default-heading .dh-icon i {
+  color: #609cec;
+}
+/* Slider */
+.tp-banner-container {
+  background: #609cec url("../img/overlay.png") repeat;
+  background-size: 252px 230px;
+}
+/* Services Block */
+.services {
+  background: #609cec url("../img/overlay.png") repeat;
+  background-size: 252px 230px;
+}
+/* Team */
+.team .tlinks a {
+  color: #609cec;
+}
+.team .tlinks a:hover {
+  color: #528fe2;
+}
+/* Pricing Block */
+.pricing .ptable-star i {
+  color: #609cec;
+}
+.pricing .pricing-table .ptable-icon {
+  color: #609cec;
+}
+.pricing .pricing-table .ptable-title i {
+  color: #609cec;
+}
+/* Testimonial Block */
+.testimonial .quote span {
+  background: #609cec;
+}
+/* Quote two */
+.quote-two .btn-xtra {
+  background: #609cec !important;
+  border-color: #609cec !important;
+}
+.quote-two .btn-xtra:hover {
+  background: #528fe2 !important;
+  border-colro: #528fe2 !important;
+}
+/* Portfolio Block */
+.portfolio .portfolio-content .p-hover i {
+  background: #609cec;
+}
+/* About Us Block */
+.about .about-heading {
+  background: #609cec url("../img/overlay.png") repeat;
+  background-size: 252px 230px;
+}
+.about .about-logo i {
+  color: #528fe2;
+}
+.about .about-inner {
+  background: #609cec url("../img/overlay.png") repeat;
+  background-size: 252px 230px;
+}
+.about .about-inner .per {
+  color: #609cec;
+}
+/* Subscribe */
+.subscribe .heading i {
+  background: #609cec;
+}
+/* Blog Block */
+.blog .grid .grid-entry .grid-img i {
+  background: #609cec !important;
+}
+.blog .grid .grid-entry .grid-quote {
+  background: #609cec;
+}
+.blog .grid .grid-entry .read-more i {
+  color: #609cec !important;
+}
+/* CTA Block */
+.cta {
+  background: #609cec url("../img/overlay.png") repeat;
+  background-size: 252px 230px;
+}
+/* Who should buy this */
+.whobuy {
+  background: #609cec url("../img/overlay.png") repeat;
+  background-size: 252px 230px;
+}
+/* Client */
+.client .popover h3 {
+  background: #609cec;
+}
+/* Contact Block */
+.contact .contact-info .info-item i {
+  color: #609cec;
+}
+.contact form label {
+  color: #609cec;
+}
+.contact form input.error {
+  border-color: #609cec;
+}
+.contact form textarea.error {
+  border-color: #609cec;
+}

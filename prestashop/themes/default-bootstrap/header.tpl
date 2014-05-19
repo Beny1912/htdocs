@@ -64,7 +64,7 @@
 		{/if}
 		<div id="page">
 			<div class="header-container">
-				<header id="header">
+				<header id="header" style="background-image: url('http://4.bp.blogspot.com/-furh5ftHxic/T3s6-6lgfFI/AAAAAAAAAWw/HcU4uhY8On4/s1600/cannabis_wallpaper_z3ctx1.jpg');-webkit-background-size: 100% 100%;-moz-background-size: 100% 100%;-o-background-size: 100% 100%;background-size: 100% 100%;-moz-border-image: url(bg-image.png) 0;">
 					<div class="banner">
 						<div class="container">
 							<div class="row">
