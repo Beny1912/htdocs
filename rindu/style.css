@@ -1,0 +1,111 @@
+/*
+Theme Name: Rindu Demo
+Theme URI:  
+Author: DevelPixel
+Author URI: http://develpixel.com/
+Description: Rindu Creative Agencies Template. Made from Bootstrap.
+Version: 1.0
+Text Domain: Garis Themes
+*/
+
+/*
+    [ IMPORT RESOURCES ]
+*/
+ @import url(http://fonts.googleapis.com/css?family=Raleway:200,300,400,500);
+ body {
+    font-family:'Raleway', sans-serif;
+    font-size: 18px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.outer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content:'';
+    display: inline-block;
+    background: #DDD;
+}
+.wrapper {
+    position: relative;
+    height: 33.333913547%;
+}
+.wrapper.dark {
+    background: url('images/bg_dark.jpg') #000;
+}
+.wrapper.light {
+    background: url('images/bg_light.jpg') #FFF;
+}
+.wrapper.mixed{
+    background:  #4cddf3;
+}
+/* HOVER EFFECT */
+ .cl-effect-8 {
+    position: relative;
+    height: 100%;
+    text-align: center;
+}
+.cl-effect-8 a {
+    padding: 15px 25px;
+    text-decoration: none;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    margin-bottom: -20px;
+    margin-left: -100px;
+    display: inline-block;
+    /*margin: 5px 10px;*/
+    letter-spacing: 1.3px;
+    color: #FFF;
+    text-transform: uppercase;
+}
+.wrapper.mixed .cl-effect-8 a:hover {
+    color: #000;
+}
+.wrapper.mixed .cl-effect-8 a:hover::before,.wrapper.mixed .cl-effect-8 a:hover::after {
+    border-color: #000;
+}
+.wrapper.light .cl-effect-8 a {
+    color: #000;
+}
+.wrapper.light .cl-effect-8 a:hover {
+    color: #4cddf3;
+}
+.wrapper.light .cl-effect-8 a::before, .cl-effect-8 a::after {
+    border-color: #000;
+}
+.cl-effect-8 a:hover {
+    color: #4cddf3;
+}
+.cl-effect-8 a::before, .cl-effect-8 a::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #FFF;
+    content:'';
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+    -moz-transition: -moz-transform 0.3s, opacity 0.3s;
+    transition: transform 0.3s, opacity 0.3s;
+}
+.cl-effect-8 a::after {
+    border-color: #4cddf3;
+    opacity: 0;
+    -webkit-transform: translateY(-7px) translateX(6px);
+    -moz-transform: translateY(-7px) translateX(6px);
+    transform: translateY(-7px) translateX(6px);
+}
+.cl-effect-8 a:hover::before, .cl-effect-8 a:focus::before {
+    opacity: 0;
+    -webkit-transform: translateY(5px) translateX(-5px);
+    -moz-transform: translateY(5px) translateX(-5px);
+    transform: translateY(5px) translateX(-5px);
+}
+.cl-effect-8 a:hover::after, .cl-effect-8 a:focus::after {
+    opacity: 1;
+    -webkit-transform: translateY(0px) translateX(0px);
+    -moz-transform: translateY(0px) translateX(0px);
+    transform: translateY(0px) translateX(0px);
+}
